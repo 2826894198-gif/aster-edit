@@ -1,0 +1,5 @@
+.aster-checkout-feedback { border-top: 1px solid #dedbd6; margin-top: 24px; padding-top: 16px; font-size: 13px; line-height: 1.6; }
+.aster-checkout-feedback[hidden] { display: none; }
+.aster-checkout-feedback p { margin: 0 0 8px; }
+.aster-checkout-feedback a, .aster-checkout-feedback button { display: inline-flex; align-items: center; justify-content: center; min-height: 44px; margin: 8px 12px 0 0; padding: 8px 12px; border: 1px solid currentColor; background: #fff; color: #25221e; font: inherit; text-decoration: none; cursor: pointer; }
+.aster-checkout-feedback a:focus-visible, .aster-checkout-feedback button:focus-visible { outline: 2px solid #25221e; outline-offset: 3px; }

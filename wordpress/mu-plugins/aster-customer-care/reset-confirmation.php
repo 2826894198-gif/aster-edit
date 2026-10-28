@@ -1,0 +1,2 @@
+<?php defined('ABSPATH') || exit; ?>
+<section class="ae-reset-confirmation"><p class="aster-eyebrow">ACCOUNT RECOVERY</p><h2>Check your inbox.</h2><p>Password reset email has been sent if these details match an account. Use the private link to choose a new password.</p><p>Check spam as well. If the link expires, request a new one.</p><a class="ae-button" href="<?php echo esc_url(wc_lostpassword_url()); ?>">Request another link</a><p><a href="<?php echo esc_url(wc_get_page_permalink('myaccount')); ?>">← Back to sign in</a></p></section>

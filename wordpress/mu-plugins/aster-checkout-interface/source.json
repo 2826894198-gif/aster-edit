@@ -1,0 +1,24 @@
+{
+  "owner_selection": "2026-10-15",
+  "reference": "design-reference/jwk-checkout-owner-selected-20261015.png",
+  "reference_sha256": "78611a6924a700e95a979cdd7c17c80892aba7664f4451df118aef5a5ef76e86",
+  "source_repository": "<LOCAL_PROJECT_PATH>",
+  "sources": {
+    "src/pages/CheckoutPage.jsx": "fed50e37db7d770b7749f6bed73a845a7742b1902decb769ab9314efee985ece",
+    "src/styles.css": "4c604a3bc05d7556f54b7a375938231016c75652c12aa8472a2b82d9cdd1be6b",
+    "src/features/payments/checkoutExperience.css": "2058a1e484ad1071c2b37df67e2d78654751ce4da6eee685c19684e862a477c9"
+  },
+  "adaptations": [
+    "Native Woo form, fragments, country rules, nonces and official gateway field rendering retained.",
+    "Aster white canvas, Cormorant/Inter, dark actions, independent products and PayPal merchant retained.",
+    "Only configured/eligible official PayPal card, PayPal and wallet methods can appear.",
+    "No JWK customer/order data or credentials copied."
+  ],
+  "native_template_versions": {
+    "form-checkout": "9.4.0",
+    "form-billing": "3.6.0",
+    "review-order": "11.0.0",
+    "payment-method": "3.5.0"
+  },
+  "icons": "@phosphor-icons/react 2.1.10, MIT, unchanged library paths rendered to standalone SVG"
+}

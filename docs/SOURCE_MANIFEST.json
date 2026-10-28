@@ -1,0 +1,1060 @@
+{
+  "date": "2026-10-28",
+  "files": [
+    {
+      "path": ".editorconfig",
+      "bytes": 196,
+      "sha256": "19259ce28d207a60acea96f3b78af63e328558e8ef6e8f140e73d3409adc7263"
+    },
+    {
+      "path": ".gitattributes",
+      "bytes": 100,
+      "sha256": "0ba87145ffb1703f740f43bbba003a534865562b6136aaac39679f2a7e67736d"
+    },
+    {
+      "path": ".github/ISSUE_TEMPLATE/bug_report.md",
+      "bytes": 225,
+      "sha256": "a00264efd5648c8fbaf309d61d2577b8c568e16790a629a6b417f862cfac7b22"
+    },
+    {
+      "path": ".github/ISSUE_TEMPLATE/feature_request.md",
+      "bytes": 179,
+      "sha256": "3366778642e68a8f7e8fb8e5aa58734e208e13234698d831059cee38cd3badd9"
+    },
+    {
+      "path": ".github/PULL_REQUEST_TEMPLATE.md",
+      "bytes": 254,
+      "sha256": "c565231e78ffa3a990f66fe732eafec2891f3d297cb42665acf558b982f36018"
+    },
+    {
+      "path": ".gitignore",
+      "bytes": 596,
+      "sha256": "871c526bbb0c246d27bcac69a2bfd274e7ddc7a763c585cee1f410020db66ff3"
+    },
+    {
+      "path": "AGENTS.md",
+      "bytes": 638,
+      "sha256": "bc9dcee9cc3ab1d9dbbaa9dc9f18f3f2e9da79ef1704d3779e6dffa65c87909c"
+    },
+    {
+      "path": "CONTRIBUTING.md",
+      "bytes": 643,
+      "sha256": "6f41be21898429096006535651affb317faf5a30819519a731a9c9fcb91db718"
+    },
+    {
+      "path": "README.md",
+      "bytes": 2946,
+      "sha256": "05bba98d6c4299f0fdfc262ab268da46b6c3cdbd77c7af84da76b0fa4ac0f34d"
+    },
+    {
+      "path": "RIGHTS.md",
+      "bytes": 468,
+      "sha256": "2294531cdf2dcda025fafcaedfde64ffd17295648fa4397d61d0ac50112efc2e"
+    },
+    {
+      "path": "SECURITY.md",
+      "bytes": 458,
+      "sha256": "4567a39622d24f88ac3b9f20103e006c771f74af949052359e78ff8100e1281c"
+    },
+    {
+      "path": "catalog/commercial-review.v1.json",
+      "bytes": 5718,
+      "sha256": "9f40d460f9866513b9f0b7c81b6e029d6db1d38be92e018561e773180ade7359"
+    },
+    {
+      "path": "catalog/customer-names.current-20261016.json",
+      "bytes": 3015,
+      "sha256": "099bcbadf14e56d1387ea79a92e6a6d72df33568f673944bfc5aa4356990ef93"
+    },
+    {
+      "path": "catalog/customer-names.v1.json",
+      "bytes": 3362,
+      "sha256": "b09572ce83d3c3b0336257285355b66165bd6ff32a176c56d22863261334c5d6"
+    },
+    {
+      "path": "catalog/launch-drafts.v1.json",
+      "bytes": 42276,
+      "sha256": "7363445e8df2ddd5e1e571041a0856003f9b71db6df5611165f4141a05e904b0"
+    },
+    {
+      "path": "catalog/storefront-images.v1.json",
+      "bytes": 4468,
+      "sha256": "77bf04348715b156d8b38661a9c9564c6d9e420df1965b2d96b5c9b0c4580558"
+    },
+    {
+      "path": "compose.yaml",
+      "bytes": 2740,
+      "sha256": "10a6d0fe1f93d8f1d0964d0f4c1d5615b0122faefef3d8f650e453f951cb1cc5"
+    },
+    {
+      "path": "docs/REPOSITORY_STATUS.md",
+      "bytes": 938,
+      "sha256": "4ac7ce65243aabea67f6b15334cfc458e1582c3a61086a0e7434ce07b8be8f81"
+    },
+    {
+      "path": "docs/SHOWCASE.md",
+      "bytes": 1723,
+      "sha256": "55cec8d53a601ada906879662bb4cdc56303885d48588f40f77cd642465223fa"
+    },
+    {
+      "path": "docs/VALIDATION.md",
+      "bytes": 501,
+      "sha256": "8f534030ea423402ebaebcc5d7342209dd71c995673910c64b386738ec3a1d1c"
+    },
+    {
+      "path": "docs/acceptance-and-operations.md",
+      "bytes": 4074,
+      "sha256": "67d7aa4b39ac03a9f70aee4be8533006c49bafd4c4446e7438b74d6d25b94d80"
+    },
+    {
+      "path": "docs/checkout-handoff.md",
+      "bytes": 13583,
+      "sha256": "714fbcf504b50108256b81cf99146beb220984475d6a93fb990f6befac517f78"
+    },
+    {
+      "path": "docs/checkout-layout-repair-2026-10-14.md",
+      "bytes": 6808,
+      "sha256": "b4b467910f0fa405e4f86bccee43868274de8e2dc163bc4a7851ed1bad5dc4b0"
+    },
+    {
+      "path": "docs/history/IMPLEMENTATION_HISTORY.md",
+      "bytes": 407,
+      "sha256": "501ea301cec61dbbbb955408a2cc48bf77782b9d9767d75b2914a19e4dbbe964"
+    },
+    {
+      "path": "docs/operations-workbench.md",
+      "bytes": 5588,
+      "sha256": "a3f9a073e666874f4825fb6a24c650d4fbde13c1b264218530c58789039668d7"
+    },
+    {
+      "path": "docs/order-access-security.md",
+      "bytes": 4255,
+      "sha256": "93db81122790cfa3a1596c3143dc346a5d6fea97843aa1507560aad44945e0d6"
+    },
+    {
+      "path": "docs/phase-one-local-preview-20261016.md",
+      "bytes": 5749,
+      "sha256": "fef8cfa0359265dde87e04e0e846e32c1469a1d0622415bf5d7de05b4a854d9b"
+    },
+    {
+      "path": "docs/phase-three-local-preview-20261016.md",
+      "bytes": 7275,
+      "sha256": "7bf7e0f0bc4df3ddfe60a2a8c9bc3eadda73e8790019c32e06aa35801b464216"
+    },
+    {
+      "path": "docs/phase-two-local-preview-20261016.md",
+      "bytes": 7631,
+      "sha256": "eca956f8e0c2df1ba873601592b361da531be54ce7ca69fb5dc5884b50c9c3fc"
+    },
+    {
+      "path": "docs/presentation-contract.md",
+      "bytes": 4557,
+      "sha256": "0620d8bbe7728ab931cdcbf046ce7c9bb39c92d91d6065c50d57cd1fafa89044"
+    },
+    {
+      "path": "docs/pricing-input.md",
+      "bytes": 5693,
+      "sha256": "3ccbc7127f0ce9509fcc0075deb62dfb6b296f3bcacf0d7fc470171a145114f4"
+    },
+    {
+      "path": "docs/releases/integrated-features-20261016.md",
+      "bytes": 327,
+      "sha256": "daa747579e467d6a8439d638fabd2ca681290155771b748e461f54a849a6e4d6"
+    },
+    {
+      "path": "docs/storefront-contract.md",
+      "bytes": 5066,
+      "sha256": "465849dae70bf16c340a1ed332df89db5293429a6cba37ecf4f9f150baeb8223"
+    },
+    {
+      "path": "docs/system-design.md",
+      "bytes": 10466,
+      "sha256": "575909a44258353fcd87d5b0c3d46043e06b128a4f8369e6f3b293aa55ceb070"
+    },
+    {
+      "path": "scripts/align-local-catalog-names.php",
+      "bytes": 1671,
+      "sha256": "e596efd56026d4a16e538876a9c721a9ef105888035f043dfef5a4c3a29f7a6c"
+    },
+    {
+      "path": "scripts/apply-commercial-review.php",
+      "bytes": 798,
+      "sha256": "1201e5ea44aadcf199485cf50c96032723b4b8b22e0a3ade4b524d0df4513bff"
+    },
+    {
+      "path": "scripts/apply-local-shipping-policy.php",
+      "bytes": 1971,
+      "sha256": "b03b3dda7831752c2d58633de747082b4092e4ea0a1f59cdd3ec123ebb64ded4"
+    },
+    {
+      "path": "scripts/audit-checkout-runtime.php",
+      "bytes": 3342,
+      "sha256": "23f12bdc919871454ba50071b3ee12f83922f29257d795eaa5b05f6907180b79"
+    },
+    {
+      "path": "scripts/audit-paypal-readiness.php",
+      "bytes": 1387,
+      "sha256": "14e87b8c6c419ec38010e48a5a6ebbb2f862dac4c9ae65548e06ffb9efd1a14f"
+    },
+    {
+      "path": "scripts/bootstrap-local.sh",
+      "bytes": 553,
+      "sha256": "81088d8277d9cab77d2a849a226e2b4ee6919c8bdd2a06df5350cecbea1ef109"
+    },
+    {
+      "path": "scripts/check-local-admin.mjs",
+      "bytes": 2024,
+      "sha256": "fa83c54b3018687f2bd3fc24938347b862539364dd788a70d947b677a21178fe"
+    },
+    {
+      "path": "scripts/checkout-foundation-state.php",
+      "bytes": 1904,
+      "sha256": "d4cd334d39d9fe2a40dbeb895700d745ce53a834a2b82e363c7dcda4739ee182"
+    },
+    {
+      "path": "scripts/configure-local.php",
+      "bytes": 4048,
+      "sha256": "8dd8699da5b197040cf3fe03aeca6a2783f5b3b8a6351f0f42149b6de10ca4b0"
+    },
+    {
+      "path": "scripts/core-install.php",
+      "bytes": 842,
+      "sha256": "4a2b5f7ff5ebf008dcd1e7dbee4877eab82e8294d6470d409ee417b6e252a23c"
+    },
+    {
+      "path": "scripts/fetch-packages.mjs",
+      "bytes": 1407,
+      "sha256": "50e10a6a9bfefea2964793b1da749e6faca8f3caa13164559b40107f2b9a5211"
+    },
+    {
+      "path": "scripts/import-catalog.php",
+      "bytes": 658,
+      "sha256": "67ecc1f02bda1b45a7327789028728197bf9a888ec28d46fedf6230749180eb7"
+    },
+    {
+      "path": "scripts/init-secrets.mjs",
+      "bytes": 838,
+      "sha256": "e5bba1c9ab7d3f91d56ea3e755a20df63ee52e910d57fb831db34a893ab071f0"
+    },
+    {
+      "path": "scripts/install-local.php",
+      "bytes": 1100,
+      "sha256": "4cbe0d600bf5b4200733410b19bff7b3c925b1ad221933dd5137c44e180a21d5"
+    },
+    {
+      "path": "scripts/phase-one-local-preview.php",
+      "bytes": 3393,
+      "sha256": "faf1dd3c9eddca8d91ec0bd2b385dbe5a47083f1d456b0edc8761267101a1dd7"
+    },
+    {
+      "path": "scripts/phase-two-local-preview.php",
+      "bytes": 1472,
+      "sha256": "2749e502158c801fe430915ce825642c4ced9771e7e84a3a70713151676ce87c"
+    },
+    {
+      "path": "scripts/update-local-admin.php",
+      "bytes": 1654,
+      "sha256": "71218fcb54364219d331c469d47a172099c3a9f287f3718d9a3bede623be9048"
+    },
+    {
+      "path": "scripts/verify-local.sh",
+      "bytes": 860,
+      "sha256": "b6362e4839d135c9514462ee1a76ba05f29eca5ebbe01f17aa4c9c26ca18f7a9"
+    },
+    {
+      "path": "tests/account.test.mjs",
+      "bytes": 7380,
+      "sha256": "a2347ec1c18fa93b10e28b7485ae77911299343d12c51797785765e00d4bf0c5"
+    },
+    {
+      "path": "tests/bundle-contract.php",
+      "bytes": 4281,
+      "sha256": "f2a50bc676d3462c0443b55ccae2f4d68697fdb696cdd2e4ebe496415bcc3fec"
+    },
+    {
+      "path": "tests/checkout-foundation.php",
+      "bytes": 9802,
+      "sha256": "4d91c8af871e5bc2d24941d6d792b86ed801a9e9453c7e588b906fac8f8fde97"
+    },
+    {
+      "path": "tests/checkout-interface.php",
+      "bytes": 4939,
+      "sha256": "2907f00eab1b56953e2ed6fbccbb6972b89c23168ab71b438586c08831f48fc7"
+    },
+    {
+      "path": "tests/checkout-runtime.test.mjs",
+      "bytes": 5134,
+      "sha256": "72896a66d6b1620526b50e4387434b550c95a00014b37b243dab3808b2825453"
+    },
+    {
+      "path": "tests/checkout-status.test.mjs",
+      "bytes": 2272,
+      "sha256": "b216e95fbcdfa93f523d5e1b56c7dc916428be29ed3cd86959b014229e4a0153"
+    },
+    {
+      "path": "tests/commerce.php",
+      "bytes": 8363,
+      "sha256": "a3fa8e5627bd961038e8123655764324d5c8c01f1c81950aa4eb3b4b73ce4043"
+    },
+    {
+      "path": "tests/commercial-review.php",
+      "bytes": 6033,
+      "sha256": "b2e43fb54c71744fd1ce73166ee6354e21f6daabe5f3232b53001f7729eb6954"
+    },
+    {
+      "path": "tests/cup-shipping.php",
+      "bytes": 2280,
+      "sha256": "8b7a65bb42df4810b582d0f3f82907d0a076a1a756cf7139acb60ef966b41d78"
+    },
+    {
+      "path": "tests/customer-care-release.php",
+      "bytes": 2520,
+      "sha256": "909d042057f3e35afa338f4344cf8b09cbca25ff21b8ca9edf10771fd8400e15"
+    },
+    {
+      "path": "tests/environment.php",
+      "bytes": 5144,
+      "sha256": "b38d7046c188725a84a4345ddc8129d87b3592b3ea4c36715fb2eb379e7af3e8"
+    },
+    {
+      "path": "tests/handoff-fixture.php",
+      "bytes": 1818,
+      "sha256": "2ba99f5197bbf2192cb916d6f60cd17a1067166544742db94efd3c419f7b3118"
+    },
+    {
+      "path": "tests/handoff-rollback.php",
+      "bytes": 1757,
+      "sha256": "e7ab76758046d751d73cce17f144ebb8b04fd29a3d7ea90bb9d9a907ff1cc974"
+    },
+    {
+      "path": "tests/handoff.test.mjs",
+      "bytes": 9965,
+      "sha256": "0aef69460530b393a1b0c9a950ed992b189c7029e77a8a13d6019d99dff72c3c"
+    },
+    {
+      "path": "tests/http-fixture.php",
+      "bytes": 1657,
+      "sha256": "2cd57828a5fdb094db501fa07e88ead304d995607f75a6863c46fc3f39a8fa30"
+    },
+    {
+      "path": "tests/integrated-journey.php",
+      "bytes": 3545,
+      "sha256": "345afc562bb61e81a83fbc52613d5eb601e6b72a510fb9d10c6071f3ec9b6451"
+    },
+    {
+      "path": "tests/isolation.test.mjs",
+      "bytes": 3396,
+      "sha256": "22d6b04e8eb509e25fa3cc51a2813245db426ddd82ccefa116cc0e5389fb4086"
+    },
+    {
+      "path": "tests/local-origin.mjs",
+      "bytes": 463,
+      "sha256": "ac70aed612bb4e0f5e51dab2aa8759efde96c6430bb0820b35f426bb434ab861"
+    },
+    {
+      "path": "tests/operations-fixture.php",
+      "bytes": 4263,
+      "sha256": "8e580da64d580eafc94545a18f4734f9f1c57543ee0cf48992bbd202e89f5c98"
+    },
+    {
+      "path": "tests/operations.test.mjs",
+      "bytes": 7369,
+      "sha256": "929968fcde26e73c9103ae96222837d11e58ff7ee823508666b324a2d6e88c51"
+    },
+    {
+      "path": "tests/order-access.test.mjs",
+      "bytes": 5601,
+      "sha256": "d3507b766c8c2a20ef27e0d48c17e02b94c0d268c9d75cf1cf5852268b1425b3"
+    },
+    {
+      "path": "tests/phase-one.php",
+      "bytes": 6758,
+      "sha256": "48e56ce1a3801f3acd05554b987eb678ade2eff24feba7f3a44892c7a838b563"
+    },
+    {
+      "path": "tests/phase-one.test.mjs",
+      "bytes": 3352,
+      "sha256": "c71451c7b29c1bc33cfd69d6075dcc17daedc50efcdcdc81c686ba51787f90c1"
+    },
+    {
+      "path": "tests/phase-three.php",
+      "bytes": 3061,
+      "sha256": "06a88a14fc0c69385ff86b963f3576ae78cc26907bb3ea9d43152eb3889f3af1"
+    },
+    {
+      "path": "tests/phase-two-fixture.php",
+      "bytes": 7528,
+      "sha256": "ff5691c67f6fd3c3f82b5cb117afcf87e1298fb44d0dd142b85f63946243c2ef"
+    },
+    {
+      "path": "tests/phase-two.test.mjs",
+      "bytes": 8824,
+      "sha256": "72704c4fa2e3ec8955b6a0e38add69614a59fddfa655399c8c96d6d4ee3f7718"
+    },
+    {
+      "path": "tests/presentation.test.mjs",
+      "bytes": 3779,
+      "sha256": "6b1500b9a3272ae86bbf27e4aebabba670c249254b6aa21136dbedf68a2af559"
+    },
+    {
+      "path": "tests/refined-checkout.php",
+      "bytes": 3409,
+      "sha256": "114a8e96e2efed80ecbe7dc958ceed1acc2a75a78ea584fadb5867a8ee445050"
+    },
+    {
+      "path": "tests/shipping-policy.php",
+      "bytes": 2312,
+      "sha256": "460014d3e10ca36cf81b057aed5560885d6e7b812bca17d837c06cb486d25ae7"
+    },
+    {
+      "path": "tests/single-checkout.test.mjs",
+      "bytes": 5204,
+      "sha256": "fb595b6fde6048f3d2b818e7732c43c1267c0c42ec2fc1bfc1014eef4de12b82"
+    },
+    {
+      "path": "versions.lock.json",
+      "bytes": 898,
+      "sha256": "e201bde9bb3ee0902ac62195b81f4142a8323f394728e42462aab1f33a3f3d8a"
+    },
+    {
+      "path": "wordpress/mu-plugins/aster-checkout-foundation.php",
+      "bytes": 3217,
+      "sha256": "a74c90ce292fbc647838d8c166b6c01fdf53c1fa5d19a1e95654bb48c22fc9cb"
+    },
+    {
+      "path": "wordpress/mu-plugins/aster-checkout-interface.php",
+      "bytes": 7173,
+      "sha256": "18294c9d4aca2420cea994e3112ed17e7054e012876553df8fff4adc127da94d"
+    },
+    {
+      "path": "wordpress/mu-plugins/aster-checkout-interface/checkout-shell.php",
+      "bytes": 1470,
+      "sha256": "5afb0ab12c325052663f4d30294636856c8b0b88e8e01edd258c7e017a1c936f"
+    },
+    {
+      "path": "wordpress/mu-plugins/aster-checkout-interface/form-billing.php",
+      "bytes": 2815,
+      "sha256": "469bb14409e00514a08388fd174ea7bde9b1c3e3706f3624d0a8e3d0c7da9cd7"
+    },
+    {
+      "path": "wordpress/mu-plugins/aster-checkout-interface/form-checkout.php",
+      "bytes": 2104,
+      "sha256": "bbf6f7200947725d79c78ee5f034e1ba574beae1a9b81188cdd124846791b197"
+    },
+    {
+      "path": "wordpress/mu-plugins/aster-checkout-interface/icons/LICENSE",
+      "bytes": 1071,
+      "sha256": "6918b72504641180600cbbd4a86b0dfa9dfccf788775694325b71b9a029f6eb4"
+    },
+    {
+      "path": "wordpress/mu-plugins/aster-checkout-interface/icons/credit-card.svg",
+      "bytes": 379,
+      "sha256": "9f3a9cf5bc3b87a5f3877c23bef174a42af2ae6246a0f1557f3c562bf75fa69c"
+    },
+    {
+      "path": "wordpress/mu-plugins/aster-checkout-interface/icons/lock-key.svg",
+      "bytes": 418,
+      "sha256": "1ac3ad83ec476d39bce631cbbff5245d45a94449c36b931f62066816cc0eb30d"
+    },
+    {
+      "path": "wordpress/mu-plugins/aster-checkout-interface/icons/paypal-logo.svg",
+      "bytes": 707,
+      "sha256": "1c3d68fc22bc90c38222799a2f4d0170c6d34349e4157d805e217aa0c9db8717"
+    },
+    {
+      "path": "wordpress/mu-plugins/aster-checkout-interface/icons/shield-check.svg",
+      "bytes": 561,
+      "sha256": "3aa9ea4c3008f495eb09bccecd9463b0c9c307f8630a1720a243ab35d46a4bc0"
+    },
+    {
+      "path": "wordpress/mu-plugins/aster-checkout-interface/interface.css",
+      "bytes": 16532,
+      "sha256": "0ae39b456341567030612db88f3aa34bb144ed0559ed1d6cbc1fadb3317a9156"
+    },
+    {
+      "path": "wordpress/mu-plugins/aster-checkout-interface/payment-method.php",
+      "bytes": 1782,
+      "sha256": "0e08d0fd18a1ecc1c6934d50dabd95efb97632349404747ea3897fe68ab021ba"
+    },
+    {
+      "path": "wordpress/mu-plugins/aster-checkout-interface/review-order.php",
+      "bytes": 5212,
+      "sha256": "706eee6430ed849c5eb3c7aa37a456649c5f12d343ed045abbbbac6edaa7c7c1"
+    },
+    {
+      "path": "wordpress/mu-plugins/aster-checkout-interface/source.json",
+      "bytes": 1223,
+      "sha256": "66db7982e82cf85952d9f9abfdb8fcaa292d851cf4fb1523c013fb73f92d6efd"
+    },
+    {
+      "path": "wordpress/mu-plugins/aster-checkout/CheckoutRuntime.php",
+      "bytes": 12177,
+      "sha256": "3de34f334680ffa910642c33367f9d704b95e10a944d997ae3bf72d27e40ecb4"
+    },
+    {
+      "path": "wordpress/mu-plugins/aster-checkout/Config.php",
+      "bytes": 2101,
+      "sha256": "6ecfbf650559b8d871364a8c0ceb0d4301c4fd67c48b298f222926a06bec0e3a"
+    },
+    {
+      "path": "wordpress/mu-plugins/aster-checkout/PayPalCheckoutOrderFirst.php",
+      "bytes": 20188,
+      "sha256": "81cb5c757d4b08c2ff121c9172cf67efd0e1f6e6aa6311cb171c78d2356ee2fb"
+    },
+    {
+      "path": "wordpress/mu-plugins/aster-checkout/PayPalVerifier.php",
+      "bytes": 10158,
+      "sha256": "3cc01844be52b585205764fbe3b610560b1d9c0b8ec8ba1d9aca6f29751417d3"
+    },
+    {
+      "path": "wordpress/mu-plugins/aster-checkout/PaymentAssessment.php",
+      "bytes": 4538,
+      "sha256": "4e387935c2f92ce698652e1cc006723d4b4c8e0671ac19832ebdc08556515e0e"
+    },
+    {
+      "path": "wordpress/mu-plugins/aster-checkout/PaymentAttemptRepository.php",
+      "bytes": 11836,
+      "sha256": "72373733c84646306a2c12df2e202adde5545a2de628b76dd89f239689216d9a"
+    },
+    {
+      "path": "wordpress/mu-plugins/aster-checkout/PaymentDeletionGuard.php",
+      "bytes": 5839,
+      "sha256": "952614c917416fa91f34dec3934d9936eb473311ffd75fa904d47b7fb03edf9d"
+    },
+    {
+      "path": "wordpress/mu-plugins/aster-checkout/PaymentOperationLock.php",
+      "bytes": 1360,
+      "sha256": "474939bd210ffa703bcd742e1bd3a893cfd723d5140dd1f1ea0f6b721b948b33"
+    },
+    {
+      "path": "wordpress/mu-plugins/aster-checkout/PaymentStateMachine.php",
+      "bytes": 5807,
+      "sha256": "a15860228c00f68b71a87c1f7a17889de3839c77367d0ffa7af20ca3df88afde"
+    },
+    {
+      "path": "wordpress/mu-plugins/aster-checkout/SinglePageCheckoutExperience.php",
+      "bytes": 10509,
+      "sha256": "32bf317f432d873f6af4b4b1bc230176823922f0ea767138545c8546194b8f7d"
+    },
+    {
+      "path": "wordpress/mu-plugins/aster-checkout/checkout-runtime.css",
+      "bytes": 685,
+      "sha256": "0db57aad7cc2a72aba8e6b096db04b88030ef79ba3a0c77062d4c767a1fc057d"
+    },
+    {
+      "path": "wordpress/mu-plugins/aster-checkout/checkout-runtime.js",
+      "bytes": 7690,
+      "sha256": "be3f1a742a2fad15a35310caa49beb2eff62bc41b6ea2772208ce6e18e86daa6"
+    },
+    {
+      "path": "wordpress/mu-plugins/aster-checkout/install-ledger.php",
+      "bytes": 2438,
+      "sha256": "40299afb41fd3e72ccc17682f8ad7b4b1014a29125237a1a1f9a6c6959bf5d0f"
+    },
+    {
+      "path": "wordpress/mu-plugins/aster-checkout/source-manifest.json",
+      "bytes": 1897,
+      "sha256": "b14e4b696ed188cd52ae8c8275d73cc301b1c1c7a2ee078d9502d8553c732dbf"
+    },
+    {
+      "path": "wordpress/mu-plugins/aster-commerce.php",
+      "bytes": 874,
+      "sha256": "ac9c7bf936e47cade84825e884548ada7d9b76a0006fa6d1cf5a777991cf9656"
+    },
+    {
+      "path": "wordpress/mu-plugins/aster-commerce/account-dashboard.php",
+      "bytes": 4101,
+      "sha256": "b7cc89ee7717387335e3100c22b20129660ff8c4b9b87d2e1c68ddf4cdb84584"
+    },
+    {
+      "path": "wordpress/mu-plugins/aster-commerce/account-form.php",
+      "bytes": 5206,
+      "sha256": "b6701d336ad6f8579f338766d3e7151d9cb12a3acacc209cb803b447de03af26"
+    },
+    {
+      "path": "wordpress/mu-plugins/aster-commerce/account-help.php",
+      "bytes": 2530,
+      "sha256": "3da188e4e4641d6c2b655c9ce5fe69a126a14fa2a96fbc229a945464eaf9b807"
+    },
+    {
+      "path": "wordpress/mu-plugins/aster-commerce/account-orders.php",
+      "bytes": 685,
+      "sha256": "23a60f9f3a1f473874b01348cdd16ee334c7ca63c522142f4e40986d9930cf71"
+    },
+    {
+      "path": "wordpress/mu-plugins/aster-commerce/account-payment-closed.php",
+      "bytes": 489,
+      "sha256": "b02e2bb892a4430c28a2ddaa7329e75e1d6337abc1c0026c776168b4f9d867ea"
+    },
+    {
+      "path": "wordpress/mu-plugins/aster-commerce/bundle-contract.php",
+      "bytes": 6096,
+      "sha256": "03e237d00d676335c374ef4bb03b4a04aceaea0297f5a770f5c2d8baf96a4e2f"
+    },
+    {
+      "path": "wordpress/mu-plugins/aster-commerce/cart-empty-refresh.js",
+      "bytes": 1190,
+      "sha256": "d4e3393d6e5a9d0f9339b241fba357456022724ac202eea2685d110189de9e4e"
+    },
+    {
+      "path": "wordpress/mu-plugins/aster-commerce/catalog.php",
+      "bytes": 5246,
+      "sha256": "00596313703d774ff487a5e9e04f02b08cca8f223cb195d6a38ffee8120cf144"
+    },
+    {
+      "path": "wordpress/mu-plugins/aster-commerce/checkout-gate.js",
+      "bytes": 1348,
+      "sha256": "369f6c7b5ea971c5e3d0db41539276040946284d6c061e0a10837490c8698500"
+    },
+    {
+      "path": "wordpress/mu-plugins/aster-commerce/checkout-handoff-page.php",
+      "bytes": 3344,
+      "sha256": "43d0816293c854764f527894a29019b37800907a8e38ff00f0c03f1f36ce5778"
+    },
+    {
+      "path": "wordpress/mu-plugins/aster-commerce/checkout-handoff.js",
+      "bytes": 7334,
+      "sha256": "586bbc0511cca2af1729254fe8237b269ca638044962d892806bb3d14cfea030"
+    },
+    {
+      "path": "wordpress/mu-plugins/aster-commerce/checkout-handoff.php",
+      "bytes": 21372,
+      "sha256": "18b87761096154c93c06cc774adbd001b3e45d721dca9a8b7953f05edb798969"
+    },
+    {
+      "path": "wordpress/mu-plugins/aster-commerce/commerce.css",
+      "bytes": 38997,
+      "sha256": "6373afec61e04d4823c2221b892521342e31873e5d1b1c63737f2e185cdb771c"
+    },
+    {
+      "path": "wordpress/mu-plugins/aster-commerce/commercial-review.php",
+      "bytes": 11790,
+      "sha256": "3db77a1bff65ba8d7101c8d09522141b9cf70e75217a6d6cfb806629dbcc2c6b"
+    },
+    {
+      "path": "wordpress/mu-plugins/aster-commerce/fonts/Cormorant-Garamond-LICENSE",
+      "bytes": 4504,
+      "sha256": "732f37009943e7f4378cf37113c9bcc4716af002a8583511aa91ed5d37683e73"
+    },
+    {
+      "path": "wordpress/mu-plugins/aster-commerce/fonts/Inter-LICENSE",
+      "bytes": 4477,
+      "sha256": "3b0a5fca3d17942cde889069889dedbbbd075e9b599968c82a95f4d944e9b345"
+    },
+    {
+      "path": "wordpress/mu-plugins/aster-commerce/fonts/cormorant-garamond-latin-400-normal.woff2",
+      "bytes": 22876,
+      "sha256": "8048ac209bec741e1c29cd0cfac5aac1c0c2ba8c3ddbd4a58fa9bd92ef5c63c2"
+    },
+    {
+      "path": "wordpress/mu-plugins/aster-commerce/fonts/cormorant-garamond-latin-500-normal.woff2",
+      "bytes": 23312,
+      "sha256": "8197bf53615ddc8c423f444c7f0eec63b7fa0ba093fcfbec60dfdd28429b0fc8"
+    },
+    {
+      "path": "wordpress/mu-plugins/aster-commerce/fonts/cormorant-garamond-latin-600-normal.woff2",
+      "bytes": 23396,
+      "sha256": "ae062b6d5ae308e7edf61b28b07b9984bbb6e961b1f34d9b2c2f4389c33f21ea"
+    },
+    {
+      "path": "wordpress/mu-plugins/aster-commerce/fonts/inter-latin-400-normal.woff2",
+      "bytes": 23664,
+      "sha256": "8909904ab6c872eb994093482a88a28eca2cd95912d7b6fecd72103b0dc07edc"
+    },
+    {
+      "path": "wordpress/mu-plugins/aster-commerce/fonts/inter-latin-500-normal.woff2",
+      "bytes": 24272,
+      "sha256": "f3779f1efccc4bdcdf9c0a02ab95bf6bd092ed09c48c08cedc725889edd1d19f"
+    },
+    {
+      "path": "wordpress/mu-plugins/aster-commerce/fonts/inter-latin-600-normal.woff2",
+      "bytes": 24452,
+      "sha256": "f9a06e79cd3a2a20951c0f0e28f66dd0e6d3fda73911d640a2125c8fcb78f21a"
+    },
+    {
+      "path": "wordpress/mu-plugins/aster-commerce/images/account-empty-suhuo.jpg",
+      "bytes": 142079,
+      "sha256": "72f67d12361437b5ec6594044820b93dc5d462d765b8631e60ce58d58a676b7d"
+    },
+    {
+      "path": "wordpress/mu-plugins/aster-commerce/legal-shell.php",
+      "bytes": 887,
+      "sha256": "7fd846e06fba472311b26c6bea99248479a6b5df14d977bda993582a1177495b"
+    },
+    {
+      "path": "wordpress/mu-plugins/aster-commerce/operations-page.php",
+      "bytes": 1623,
+      "sha256": "640722bc05b4971a5b0070c128daf22c2a5715653d259662d7f385047d01b1eb"
+    },
+    {
+      "path": "wordpress/mu-plugins/aster-commerce/operations.css",
+      "bytes": 2553,
+      "sha256": "ff039e82f113f58fca742ae7c05b01bec2ed6b83a6a48952bf482eea5dcfec37"
+    },
+    {
+      "path": "wordpress/mu-plugins/aster-commerce/operations.js",
+      "bytes": 8430,
+      "sha256": "c246f2ee9af7cc0dbdfa63161ea3a492df17ec8681946a9bea37d84777e01540"
+    },
+    {
+      "path": "wordpress/mu-plugins/aster-commerce/operations.php",
+      "bytes": 13127,
+      "sha256": "6b126bcd3c4330133136009388af5c346ae2a01b57454e175815f3881f385574"
+    },
+    {
+      "path": "wordpress/mu-plugins/aster-commerce/order-access.php",
+      "bytes": 17682,
+      "sha256": "f7046c10f3b68f50bbbd7d2363bfaee8d4a2f76fa80d922b47a9a95e27005b8c"
+    },
+    {
+      "path": "wordpress/mu-plugins/aster-commerce/order-status.css",
+      "bytes": 1796,
+      "sha256": "6b261ef4d74d2bb8cd2e7fa3cf4a7347d300e17a63c22ea2effc28c0f55d2da9"
+    },
+    {
+      "path": "wordpress/mu-plugins/aster-commerce/order-status.js",
+      "bytes": 3930,
+      "sha256": "4222b82d1780eef88f7cfc7ecb019bb2a10c190a0a9be3b82da6f7e9d4a18fb0"
+    },
+    {
+      "path": "wordpress/mu-plugins/aster-commerce/order-status.php",
+      "bytes": 3738,
+      "sha256": "3b0e609591a349728a7a7d7f0e27636bd7407f6d9211d53f5ea494aa0917c9a4"
+    },
+    {
+      "path": "wordpress/mu-plugins/aster-commerce/presentation.php",
+      "bytes": 13996,
+      "sha256": "7ea458f2bbc6f74b07724a72f942cd3632dad3319d788bce45c03e729c8cd8fc"
+    },
+    {
+      "path": "wordpress/mu-plugins/aster-commerce/refined-checkout.css",
+      "bytes": 9003,
+      "sha256": "e5331f5dd10933819b8f329471ea202fb01af25fe7ffa65f87d465afd683a51d"
+    },
+    {
+      "path": "wordpress/mu-plugins/aster-commerce/refined-checkout.js",
+      "bytes": 1728,
+      "sha256": "b98f50323ae5365e1311c2f078478e9eea7a0c1f0a2944830d73c25ecb0d9838"
+    },
+    {
+      "path": "wordpress/mu-plugins/aster-commerce/shipping-policy.php",
+      "bytes": 2582,
+      "sha256": "62930fa9def17ed8d66856fa9e58a1dac0506985661cc75dc86a8a1f7af6199d"
+    },
+    {
+      "path": "wordpress/mu-plugins/aster-commerce/storefront-images.v1.json",
+      "bytes": 4468,
+      "sha256": "77bf04348715b156d8b38661a9c9564c6d9e420df1965b2d96b5c9b0c4580558"
+    },
+    {
+      "path": "wordpress/mu-plugins/aster-commerce/woo-shell.php",
+      "bytes": 4461,
+      "sha256": "ab5473a9459cc79743700391996e5a7f6cb9479da1b6185fb0896f92829d1715"
+    },
+    {
+      "path": "wordpress/mu-plugins/aster-customer-care.php",
+      "bytes": 1839,
+      "sha256": "5cb29c20d031199313d4ddeb63401cc51d5c292e4e268ebc44f53d198b330c36"
+    },
+    {
+      "path": "wordpress/mu-plugins/aster-customer-care/Alerts.php",
+      "bytes": 3636,
+      "sha256": "6fa39fc021f3b47cb3869480816aa42011c20958d024d663df9e36c6283ec5ef"
+    },
+    {
+      "path": "wordpress/mu-plugins/aster-customer-care/Care.php",
+      "bytes": 12997,
+      "sha256": "2e70b8cd97534509ae42067606a6b5efe9bbdcb273a3e18215b7777541f85888"
+    },
+    {
+      "path": "wordpress/mu-plugins/aster-customer-care/Orders.php",
+      "bytes": 11102,
+      "sha256": "5f8846506feb63eae9818c3056db91adb38b87ad18b36554dbbd726c56aa32bf"
+    },
+    {
+      "path": "wordpress/mu-plugins/aster-customer-care/Photos.php",
+      "bytes": 9250,
+      "sha256": "32d1173e3fa91ca7311163e9bdedfb45e9ed10d906959544f0c2fb6d9f70a03f"
+    },
+    {
+      "path": "wordpress/mu-plugins/aster-customer-care/Reviews.php",
+      "bytes": 17612,
+      "sha256": "2ef3e018dc14c6fc227bc7b1bb806c86c51aaaf1a87fbef092ccedcd5b776f99"
+    },
+    {
+      "path": "wordpress/mu-plugins/aster-customer-care/account-dashboard.php",
+      "bytes": 3780,
+      "sha256": "9134d36e2c87736029ce9b1e228ee8eeab2b8ffe051d90d52142feaabd9144e8"
+    },
+    {
+      "path": "wordpress/mu-plugins/aster-customer-care/account-email.php",
+      "bytes": 1380,
+      "sha256": "2d2b25de3407e547da75f071b1e4f986674f5ba5514dfc0d9feaecebadd3b7c0"
+    },
+    {
+      "path": "wordpress/mu-plugins/aster-customer-care/care.css",
+      "bytes": 11672,
+      "sha256": "929ef65405bb7438f12c0901d47c43146f5bc4f1a42eb28332c94b1b3e9ee238"
+    },
+    {
+      "path": "wordpress/mu-plugins/aster-customer-care/care.js",
+      "bytes": 11427,
+      "sha256": "0f24f87b5780c4d1756329c779d5753d929d647798c26a8bbead1572e4888c35"
+    },
+    {
+      "path": "wordpress/mu-plugins/aster-customer-care/detail.php",
+      "bytes": 5723,
+      "sha256": "0fffde315e39557013f8515964d8c1e66fc33725e8f339a3c7b51632664d6d3c"
+    },
+    {
+      "path": "wordpress/mu-plugins/aster-customer-care/email-header.php",
+      "bytes": 5868,
+      "sha256": "6847d0373d9f42ce659d01cd5103424483ffbc4b6f90f31733bb18eb3cf7224a"
+    },
+    {
+      "path": "wordpress/mu-plugins/aster-customer-care/guest.php",
+      "bytes": 2181,
+      "sha256": "7f528eff72cc0cdedf3a6076ec6c41f8bf70ace7256a36f654dc1c249412fbeb"
+    },
+    {
+      "path": "wordpress/mu-plugins/aster-customer-care/lost-password.php",
+      "bytes": 1587,
+      "sha256": "3492939fb72ec37b1dff8755ec6df161faad1c82ebe8e9f2b94496cb760caa50"
+    },
+    {
+      "path": "wordpress/mu-plugins/aster-customer-care/order-template.php",
+      "bytes": 965,
+      "sha256": "8524d0007432d7e3dc18b2230e146bcb38bc8d2d24aa36dbc7c2e5c4dabd8f0a"
+    },
+    {
+      "path": "wordpress/mu-plugins/aster-customer-care/orders.css",
+      "bytes": 11217,
+      "sha256": "918f1008b2f6598a4bd7c169d1e9dfbf565662edebf33b9e8b6baf4a8924759f"
+    },
+    {
+      "path": "wordpress/mu-plugins/aster-customer-care/orders.js",
+      "bytes": 6726,
+      "sha256": "c37ab7ed370dba4c7356c0ef2285b34a3191d97fe6ffcc092277c2f85888f68d"
+    },
+    {
+      "path": "wordpress/mu-plugins/aster-customer-care/page.php",
+      "bytes": 8321,
+      "sha256": "fda7b667f2a261976576fafb260e947b3e8670f3d876a2ff61e984e43ae123b4"
+    },
+    {
+      "path": "wordpress/mu-plugins/aster-customer-care/reset-confirmation.php",
+      "bytes": 544,
+      "sha256": "d0a2884c04948c72ea12c5bfc9ecf1599f43fe883b2c7f981f31409fe9a5c151"
+    },
+    {
+      "path": "wordpress/mu-plugins/aster-customer-care/result-shell.php",
+      "bytes": 637,
+      "sha256": "43e24185a3d3970f75521e45b161c859e3c86d5580da0fe53685eb3b531bb1d3"
+    },
+    {
+      "path": "wordpress/mu-plugins/aster-customer-care/status-email-plain.php",
+      "bytes": 916,
+      "sha256": "9f9a630ee813f5213cd174f34c9c17ff3f651c61ece08d90ef50747a5d4dcbc1"
+    },
+    {
+      "path": "wordpress/mu-plugins/aster-customer-care/status-email.php",
+      "bytes": 1504,
+      "sha256": "0206b521683b1b2ab8cadbfa25b0e956230fc565e454a61d56714cb0d63b617e"
+    },
+    {
+      "path": "wordpress/mu-plugins/aster-environment.php",
+      "bytes": 4916,
+      "sha256": "de879752f40d35f78febf4ea15e134b71030c8c75b2dfa783760ee742643313a"
+    },
+    {
+      "path": "wordpress/mu-plugins/aster-geo-analytics.php",
+      "bytes": 6126,
+      "sha256": "ed68b92a8a64dc47ac9aa79790da7683b890cbac69c863fca31845e6b1cc4e4b"
+    },
+    {
+      "path": "wordpress/mu-plugins/aster-phase-one.php",
+      "bytes": 572,
+      "sha256": "ed2dc7d4986b02ac2644a910b858a55bae03fcb37805714b1a79914770be98f1"
+    },
+    {
+      "path": "wordpress/mu-plugins/aster-phase-one/Orders.php",
+      "bytes": 15342,
+      "sha256": "bfdf63a8894dabecfc51359a891470b505ea875dbbd0aa987e620889a6cb56c8"
+    },
+    {
+      "path": "wordpress/mu-plugins/aster-phase-one/detail.php",
+      "bytes": 5999,
+      "sha256": "d282a4ecd5d712e0b0afddc6867b7de718872e6bcd1614a7c5a3da3508261e18"
+    },
+    {
+      "path": "wordpress/mu-plugins/aster-phase-one/guest.php",
+      "bytes": 2326,
+      "sha256": "7e7e75a84aac4973d7dc35af859a2272f77b802bd4fd57a275c9f00ee58bd18b"
+    },
+    {
+      "path": "wordpress/mu-plugins/aster-phase-one/index.php",
+      "bytes": 2607,
+      "sha256": "df86c9ab65206b10bae54f0104d541d1ba8db4053257a3965a6c034707ab62ac"
+    },
+    {
+      "path": "wordpress/mu-plugins/aster-phase-one/olive-cup.png",
+      "bytes": 1964581,
+      "sha256": "6aa9f3d0ff6043d4c3e18cf0243642e7f5d30c1d82310c8b308674aefde1dcea"
+    },
+    {
+      "path": "wordpress/mu-plugins/aster-phase-one/order-template.php",
+      "bytes": 959,
+      "sha256": "a85a2247e232f6a3eadd88d4b2b4137efd2ffed714534ec27fc23d786fffaa94"
+    },
+    {
+      "path": "wordpress/mu-plugins/aster-phase-one/preview-order.php",
+      "bytes": 666,
+      "sha256": "2d8a18ea0cdea9dc92bca93798bb30062652dffcba041d06e0474f1df360533b"
+    },
+    {
+      "path": "wordpress/mu-plugins/aster-phase-one/preview.css",
+      "bytes": 11217,
+      "sha256": "918f1008b2f6598a4bd7c169d1e9dfbf565662edebf33b9e8b6baf4a8924759f"
+    },
+    {
+      "path": "wordpress/mu-plugins/aster-phase-one/preview.js",
+      "bytes": 6726,
+      "sha256": "c37ab7ed370dba4c7356c0ef2285b34a3191d97fe6ffcc092277c2f85888f68d"
+    },
+    {
+      "path": "wordpress/mu-plugins/aster-phase-one/result-shell.php",
+      "bytes": 636,
+      "sha256": "7b5ea346f5e2720f81048bfd61a732237f8941b109f34714666581658f78f01a"
+    },
+    {
+      "path": "wordpress/mu-plugins/aster-phase-one/source.json",
+      "bytes": 1142,
+      "sha256": "2fc1d37e085957095f15bcbf76aa030cf8f4c758cb06de19f40155598986f689"
+    },
+    {
+      "path": "wordpress/mu-plugins/aster-phase-three.php",
+      "bytes": 615,
+      "sha256": "de563de9bcd5ae1142377a0e299893197a0799cd9cffd1ddc3fd5b01c1b7e6e0"
+    },
+    {
+      "path": "wordpress/mu-plugins/aster-phase-three/Discovery.php",
+      "bytes": 16853,
+      "sha256": "73ad4c701f80dc3eb8f836bb8498cdec8a88cfab3f30df0effdda717d7606326"
+    },
+    {
+      "path": "wordpress/mu-plugins/aster-phase-three/Journey.php",
+      "bytes": 10276,
+      "sha256": "a6d2dc89a839de8085ae583a2705e2cb86bc2dc0b5e7fe3c826ea1a6ffaa691c"
+    },
+    {
+      "path": "wordpress/mu-plugins/aster-phase-three/discovery.css",
+      "bytes": 6533,
+      "sha256": "f053dc6bf39a219dcb3224b4a55426bcdfa867cbdd79b13eb6be2a10828321fd"
+    },
+    {
+      "path": "wordpress/mu-plugins/aster-phase-three/journey-page.php",
+      "bytes": 10720,
+      "sha256": "00f17cac2432c7020c657d975d9778558a017f0870214116b3285590c152158d"
+    },
+    {
+      "path": "wordpress/mu-plugins/aster-phase-three/journey.css",
+      "bytes": 3657,
+      "sha256": "9e7e9b6d2b921ca603f708e6c6f524ba214e4f78819895c185452d03733c2b96"
+    },
+    {
+      "path": "wordpress/mu-plugins/aster-phase-three/page.php",
+      "bytes": 13057,
+      "sha256": "e142aa819bfc524d4ccf9863a014a1c03687fa44202de9009ab2e7b3b44d1d24"
+    },
+    {
+      "path": "wordpress/mu-plugins/aster-phase-three/seo.json",
+      "bytes": 34053,
+      "sha256": "973e02ecbca85a06c8da675174696284195037bc71f5ad97c5fd2ebe82b43cd8"
+    },
+    {
+      "path": "wordpress/mu-plugins/aster-phase-three/source.json",
+      "bytes": 776,
+      "sha256": "090ecb3bb243b75da4ea005d32f68448a0702c0e728cbe09d1d9effdfbad1ad7"
+    },
+    {
+      "path": "wordpress/mu-plugins/aster-phase-two.php",
+      "bytes": 820,
+      "sha256": "2f59d5c6280f2e494f8f0bab66dc53576ced26ea4f346e84c60a6b9904ed4362"
+    },
+    {
+      "path": "wordpress/mu-plugins/aster-phase-two/Alerts.php",
+      "bytes": 3909,
+      "sha256": "662fd91bbd28213f210518dd6d6a2c929d2ffce2c25901839076591a71d13473"
+    },
+    {
+      "path": "wordpress/mu-plugins/aster-phase-two/Care.php",
+      "bytes": 17791,
+      "sha256": "e6f997ee40c90b5a6a637a9d941558e80f010a6c403af555312e0e3bce697d6d"
+    },
+    {
+      "path": "wordpress/mu-plugins/aster-phase-two/Photos.php",
+      "bytes": 9241,
+      "sha256": "6b2863cc7bf807f547d944ea795590bfcce0c1976aeb2a5fc32aa533fada3e0b"
+    },
+    {
+      "path": "wordpress/mu-plugins/aster-phase-two/Reviews.php",
+      "bytes": 17953,
+      "sha256": "818e17df2966047ba42d29d9022c421520f39db30fba26690155782c50102124"
+    },
+    {
+      "path": "wordpress/mu-plugins/aster-phase-two/account-email.php",
+      "bytes": 1380,
+      "sha256": "2d2b25de3407e547da75f071b1e4f986674f5ba5514dfc0d9feaecebadd3b7c0"
+    },
+    {
+      "path": "wordpress/mu-plugins/aster-phase-two/care.css",
+      "bytes": 11672,
+      "sha256": "929ef65405bb7438f12c0901d47c43146f5bc4f1a42eb28332c94b1b3e9ee238"
+    },
+    {
+      "path": "wordpress/mu-plugins/aster-phase-two/care.js",
+      "bytes": 11489,
+      "sha256": "26e56a6d31c1a0c188d4b6f43003c129dd5c557d74fbac6fc85b9a4f8826714c"
+    },
+    {
+      "path": "wordpress/mu-plugins/aster-phase-two/email-header.php",
+      "bytes": 5868,
+      "sha256": "6847d0373d9f42ce659d01cd5103424483ffbc4b6f90f31733bb18eb3cf7224a"
+    },
+    {
+      "path": "wordpress/mu-plugins/aster-phase-two/lost-password.php",
+      "bytes": 1321,
+      "sha256": "6727c92a0d485dc0c0ddf2a74cc13905cbc0bd60bf91667ba950472aebceeeb3"
+    },
+    {
+      "path": "wordpress/mu-plugins/aster-phase-two/page.php",
+      "bytes": 15150,
+      "sha256": "5ca1274349f4b40e1a960ffdf32d8d00d0c957f36de8b09a1501fcb0dab51b40"
+    },
+    {
+      "path": "wordpress/mu-plugins/aster-phase-two/reset-confirmation.php",
+      "bytes": 544,
+      "sha256": "d0a2884c04948c72ea12c5bfc9ecf1599f43fe883b2c7f981f31409fe9a5c151"
+    },
+    {
+      "path": "wordpress/mu-plugins/aster-phase-two/source.json",
+      "bytes": 1241,
+      "sha256": "539f2aa539b5a560510c616b5077c78450ce7f40a1b1b3d8604e0167ca4c646d"
+    },
+    {
+      "path": "wordpress/mu-plugins/aster-phase-two/status-email-plain.php",
+      "bytes": 1009,
+      "sha256": "dd454f80e2112dfb7aa5dbd3a9d88b05acf3546d8cd36d1d295aa10d9042d49d"
+    },
+    {
+      "path": "wordpress/mu-plugins/aster-phase-two/status-email.php",
+      "bytes": 1745,
+      "sha256": "c86425ea7c9a1f46e2470168fe1a962bf0b80fb42921677e84168b3fa2218260"
+    },
+    {
+      "path": "wordpress/mu-plugins/aster-refined-checkout.php",
+      "bytes": 9246,
+      "sha256": "60061a3e62612276474b2f147910fcb9b993d5da2865f92be419629bf5e19e33"
+    }
+  ]
+}

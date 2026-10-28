@@ -1,0 +1,18 @@
+{
+  "reviewed": "2026-10-16",
+  "source": [
+    {
+      "path": "src/features/currency/currencyModel.js",
+      "sha256": "d9499948aa570eea13d9064fbae8e3840ba6f32d1dee523a7abdb2226099f395"
+    },
+    {
+      "path": "src/features/currency/CurrencyContext.jsx",
+      "sha256": "90c1c19ccc198d777878f0dd8eae523b0b35c7703191f78b94646b9997b341aa"
+    },
+    {
+      "path": "integrations/woocommerce/animate-goods-customer-operations/src/MultiCurrency.php",
+      "sha256": "98cdd9c80f6d6a05ec3e9382414f7141bffc751f82b4bba6eb3d92bf855e9353"
+    }
+  ],
+  "adaptation": "Independent Aster namespace and USD catalogue. Unit rounding and frozen order snapshot adapted from JWK. Local synthetic rates only; no inherited settlement account, gateway, credentials or runtime imports."
+}

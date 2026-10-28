@@ -1,0 +1,37 @@
+{
+  "source": "Animate Goods customer operations (owner-authorized 2026-10-15)",
+  "files": {
+    "PaymentAssessment.php": {
+      "source_sha256": "06c26cfb59ca13e0328331c26dda61873d9db9e1e3473fd15ef2ffb4a71def23",
+      "vendored_sha256": "4e387935c2f92ce698652e1cc006723d4b4c8e0671ac19832ebdc08556515e0e"
+    },
+    "PaymentStateMachine.php": {
+      "source_sha256": "2ec526f95f54e16559294d988dc8eb25fd2e6ba3c058c80304c4698b85042bc9",
+      "vendored_sha256": "a15860228c00f68b71a87c1f7a17889de3839c77367d0ffa7af20ca3df88afde"
+    },
+    "PaymentOperationLock.php": {
+      "source_sha256": "c8fcfde3490fe991b38bf94ca520d508e3445b6a0a78229356339519fe3e4a8f",
+      "vendored_sha256": "474939bd210ffa703bcd742e1bd3a893cfd723d5140dd1f1ea0f6b721b948b33"
+    },
+    "PayPalVerifier.php": {
+      "source_sha256": "84392e3fff5e7c9d459d102c69044cbd64b381872b6699df71ce9cba7e64680f",
+      "vendored_sha256": "40c2a49eebadfa5310a3b15b6d512118ea6556acb8ce753b718f4b4f9ed5c574"
+    },
+    "PaymentAttemptRepository.php": {
+      "source_sha256": "43e9ba74440440116ab516808ade2f5bf088fd0cdcfd2ec93c96e2d0918b4dd2",
+      "vendored_sha256": "72373733c84646306a2c12df2e202adde5545a2de628b76dd89f239689216d9a"
+    },
+    "PaymentDeletionGuard.php": {
+      "source_sha256": "47a567a135265319a98cf9a274f567a2f853ade64dd41d6124c7e47132feac25",
+      "vendored_sha256": "952614c917416fa91f34dec3934d9936eb473311ffd75fa904d47b7fb03edf9d"
+    },
+    "PayPalCheckoutOrderFirst.php": {
+      "source_sha256": "16ca7fb277121a7a56acc8eadb69ecafe250f86df6e56d2d21b3958cab7d871a",
+      "vendored_sha256": "81cb5c757d4b08c2ff121c9172cf67efd0e1f6e6aa6311cb171c78d2356ee2fb"
+    },
+    "SinglePageCheckoutExperience.php": {
+      "source_sha256": "c33750e1d2422176452fcb82550fb934ef65f90577877e643af11ac7f031d04c",
+      "vendored_sha256": "98b1ca7c03dc2ecf304a15a985c0e0dfccc6d6ee3171f5fd6b7ec4111aa49c1e"
+    }
+  }
+}
