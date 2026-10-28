@@ -1,0 +1,98 @@
+[
+  {
+    "id": "aries",
+    "name": "Aries",
+    "motif": "Ram",
+    "sourceSku": "6108903228570",
+    "sourceLabel": "炫彩 白羊座/纸盒装 送杯垫",
+    "sourceImage": "/assets/prism-zodiac-v1/aries-source.webp"
+  },
+  {
+    "id": "taurus",
+    "name": "Taurus",
+    "motif": "Bull",
+    "sourceSku": "6108903228571",
+    "sourceLabel": "炫彩 金牛座/纸盒装 送杯垫",
+    "sourceImage": "/assets/prism-zodiac-v1/taurus-source.webp"
+  },
+  {
+    "id": "gemini",
+    "name": "Gemini",
+    "motif": "Twins",
+    "sourceSku": "6108903228572",
+    "sourceLabel": "炫彩 双子座/纸盒装 送杯垫",
+    "sourceImage": "/assets/prism-zodiac-v1/gemini-source.webp"
+  },
+  {
+    "id": "cancer",
+    "name": "Cancer",
+    "motif": "Crab",
+    "sourceSku": "6108903228573",
+    "sourceLabel": "炫彩 巨蟹座/纸盒装 送杯垫",
+    "sourceImage": "/assets/prism-zodiac-v1/cancer-source.webp"
+  },
+  {
+    "id": "leo",
+    "name": "Leo",
+    "motif": "Lion",
+    "sourceSku": "6108903228574",
+    "sourceLabel": "炫彩 狮子座/纸盒装 送杯垫",
+    "sourceImage": "/assets/prism-zodiac-v1/leo-source.webp"
+  },
+  {
+    "id": "virgo",
+    "name": "Virgo",
+    "motif": "Maiden",
+    "sourceSku": "6108903228575",
+    "sourceLabel": "炫彩 处女座/纸盒装 送杯垫",
+    "sourceImage": "/assets/prism-zodiac-v1/virgo-source.webp"
+  },
+  {
+    "id": "libra",
+    "name": "Libra",
+    "motif": "Scales",
+    "sourceSku": "6108903228576",
+    "sourceLabel": "炫彩 天秤座/纸盒装 送杯垫",
+    "sourceImage": "/assets/prism-zodiac-v1/libra-source.webp"
+  },
+  {
+    "id": "scorpio",
+    "name": "Scorpio",
+    "motif": "Scorpion",
+    "sourceSku": "6108903228577",
+    "sourceLabel": "炫彩 天蝎座/纸盒装 送杯垫",
+    "sourceImage": "/assets/prism-zodiac-v1/scorpio-source.webp"
+  },
+  {
+    "id": "sagittarius",
+    "name": "Sagittarius",
+    "motif": "Archer",
+    "sourceSku": "6108903228578",
+    "sourceLabel": "炫彩 射手座/纸盒装 送杯垫",
+    "sourceImage": "/assets/prism-zodiac-v1/sagittarius-source.webp"
+  },
+  {
+    "id": "capricorn",
+    "name": "Capricorn",
+    "motif": "Sea goat",
+    "sourceSku": "6108903228579",
+    "sourceLabel": "炫彩 摩羯座/纸盒装 送杯垫",
+    "sourceImage": "/assets/prism-zodiac-v1/capricorn-source.webp"
+  },
+  {
+    "id": "aquarius",
+    "name": "Aquarius",
+    "motif": "Water bearer",
+    "sourceSku": "6108903228580",
+    "sourceLabel": "炫彩 水瓶座/纸盒装 送杯垫",
+    "sourceImage": "/assets/prism-zodiac-v1/aquarius-source.webp"
+  },
+  {
+    "id": "pisces",
+    "name": "Pisces",
+    "motif": "Fish",
+    "sourceSku": "6108903228581",
+    "sourceLabel": "炫彩 双鱼座/纸盒装 送杯垫",
+    "sourceImage": "/assets/prism-zodiac-v1/pisces-source.webp"
+  }
+]

@@ -1,0 +1,31 @@
+{
+  "name": "prototype",
+  "version": "0.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build && node scripts/prerender-seo.mjs && node scripts/finalize-performance.mjs && node scripts/prepare-sites-build.mjs",
+    "build:geo": "VITE_PUBLICATION_MODE=production PUBLICATION_MODE=production npm run build",
+    "preview": "vite preview",
+    "test:sites": "node --test tests/*.test.mjs",
+    "images:prepare": "node scripts/prepare-responsive-images.mjs",
+    "build:demo": "npm run build"
+  },
+  "dependencies": {
+    "@fontsource/caveat": "^5.3.0",
+    "@fontsource/cormorant-garamond": "^5.3.0",
+    "@fontsource/fredoka": "^5.3.0",
+    "@fontsource/inter": "^5.3.0",
+    "@phosphor-icons/react": "^2.1.10",
+    "@vitejs/plugin-react": "5.0.4",
+    "react": "19.2.0",
+    "react-dom": "19.2.0",
+    "three": "^0.186.0",
+    "vite": "6.4.2"
+  },
+  "devDependencies": {
+    "prettier": "^3.6.2",
+    "sharp": "^0.35.5"
+  }
+}

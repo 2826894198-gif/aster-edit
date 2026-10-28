@@ -1,0 +1,133 @@
+.crystal-detail-chapter.crystal-form-story {
+  display: block;
+  padding-top: 32px;
+  scroll-margin-top: 80px;
+}
+
+.crystal-detail-band {
+  display: grid;
+  grid-template-columns: minmax(0, 1.1fr) minmax(0, 1fr);
+  align-items: stretch;
+  min-width: 0;
+  background: #f8f6f2;
+}
+
+.crystal-detail-closeup {
+  position: relative;
+  display: block;
+  width: 100%;
+  min-width: 0;
+  height: clamp(280px, 26vw, 360px);
+  padding: 0;
+  overflow: hidden;
+  border: 0;
+  background: #fff;
+  cursor: zoom-in;
+}
+
+.crystal-detail-closeup > img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: center 86%;
+  transform: scale(1.55);
+  transform-origin: 50% 84%;
+}
+
+.crystal-detail-copy {
+  align-self: center;
+  padding: clamp(24px, 4vw, 56px);
+  min-width: 0;
+}
+
+.aster-crystal-page .crystal-detail-copy h2 {
+  font: 400 clamp(30px, 3vw, 42px) / 1.02 var(--aster-serif);
+  letter-spacing: -0.025em;
+  margin: 0 0 20px;
+  text-wrap: balance;
+}
+
+.crystal-detail-copy p {
+  max-width: 44ch;
+  margin: 0;
+  color: #625b53;
+  font: 400 14px/1.65 var(--aster-sans);
+}
+
+.crystal-form-context dl {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 24px;
+  margin: 32px 0 0;
+}
+
+.crystal-form-context dl > div {
+  min-width: 0;
+  padding-top: 16px;
+  border-top: 1px solid var(--crystal-line);
+}
+
+.crystal-form-context dt {
+  color: var(--crystal-ink);
+  font-size: 13px;
+  font-weight: 500;
+}
+
+.crystal-form-context dd {
+  color: var(--crystal-muted);
+  margin: 8px 0 0;
+  font-size: 14px;
+  line-height: 1.7;
+}
+
+.crystal-detail-closeup:focus-visible {
+  outline: 3px solid var(--crystal-ink);
+  outline-offset: 4px;
+}
+
+.crystal-detail-closeup:hover {
+  outline: 1px solid var(--crystal-muted);
+  outline-offset: -1px;
+}
+
+@media (max-width: 900px) {
+  .crystal-detail-copy {
+    padding: 24px;
+  }
+  .crystal-form-context dl {
+    gap: 16px;
+  }
+}
+
+
+@media (max-width: 680px) {
+  .crystal-detail-band {
+    grid-template-columns: minmax(0, 1fr);
+  }
+  .crystal-detail-closeup {
+    height: auto;
+    aspect-ratio: 1.75;
+  }
+  .crystal-detail-copy {
+    padding: 24px;
+  }
+  .aster-crystal-page .crystal-detail-copy h2 {
+    font-size: 34px;
+    margin-bottom: 16px;
+  }
+  .crystal-form-context dl {
+    grid-template-columns: minmax(0, 1fr);
+    gap: 16px;
+    margin-top: 24px;
+  }
+}
+
+@media (max-width: 360px) {
+  .crystal-detail-copy {
+    padding-inline: 20px;
+  }
+  .aster-crystal-page .crystal-detail-copy h2 {
+    font-size: 30px;
+  }
+}

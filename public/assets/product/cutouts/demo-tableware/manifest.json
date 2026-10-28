@@ -1,0 +1,102 @@
+{
+  "sourceNoteId": "demo-source",
+  "rule": "Selected public product cutouts for portfolio demonstration; source archives and supplier records are excluded. Rights require project review.",
+  "assets": [
+    {
+      "id": "blue-bird-plate",
+      "label": "Illustrated plate",
+      "source": "demo-source/product-1.svg",
+      "sourceCrop": [
+        170,
+        130,
+        535,
+        400
+      ],
+      "file": "blue-bird-plate.png",
+      "width": 323,
+      "height": 237,
+      "sha256": "55d49b7ab45c7c01c078b4e73f18d49758fa61b296d0955274e6d99a7d863cea",
+      "method": "Selected demonstration derivative; original source omitted."
+    },
+    {
+      "id": "green-serving-dish",
+      "label": "Serving dish",
+      "source": "demo-source/product-2.svg",
+      "sourceCrop": [
+        330,
+        385,
+        775,
+        735
+      ],
+      "file": "green-serving-dish.png",
+      "width": 432,
+      "height": 325,
+      "sha256": "7d00fbd0629579ae7a86615c1db6e0d393b95f9c95a60dc52c4ebdf636ca264d",
+      "method": "Selected demonstration derivative; original source omitted."
+    },
+    {
+      "id": "pear-side-plate",
+      "label": "Side plate",
+      "source": "demo-source/product-3.svg",
+      "sourceCrop": [
+        80,
+        495,
+        405,
+        790
+      ],
+      "file": "pear-side-plate.png",
+      "width": 267,
+      "height": 251,
+      "sha256": "777d90b0b708319770ae77cda8893069446fbed8d7b8e1c42c26c7bdc5ff1ba3",
+      "method": "Selected demonstration derivative; original source omitted."
+    },
+    {
+      "id": "apple-serving-dish",
+      "label": "Apple dish",
+      "source": "demo-source/product-4.svg",
+      "sourceCrop": [
+        285,
+        540,
+        655,
+        840
+      ],
+      "file": "apple-serving-dish.png",
+      "width": 370,
+      "height": 300,
+      "sha256": "fe54372b5985f43ede5f0ed0609a4d197f59e8a0f30145e397a939798891a81e",
+      "method": "Selected demonstration derivative; original source omitted."
+    },
+    {
+      "id": "brown-floral-mug",
+      "label": "Floral mug",
+      "source": "demo-source/product-5.svg",
+      "sourceCrop": [
+        405,
+        505,
+        745,
+        825
+      ],
+      "file": "brown-floral-mug.png",
+      "width": 337,
+      "height": 303,
+      "sha256": "a3012a5b902ff980276f8fc3c8ef43994e8357366bac75c3da2fd31c4d5214d5",
+      "method": "Selected demonstration derivative; original source omitted."
+    },
+    {
+      "id": "speckled-bowl",
+      "label": "Speckled bowl",
+      "source": "demo-source/product-6.svg",
+      "sourceCrop": [
+        350,
+        480,
+        675,
+        780
+      ],
+      "file": "speckled-bowl.png",
+      "width": 283,
+      "height": 249,
+      "sha256": "b93b9486dcf1274c0d1288cabfbc2cb0db3c5392f3d299f6bea754cb987b47c8",
+      "method": "Selected demonstration derivative; original source omitted."
+    }
+  ]
+}

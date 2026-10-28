@@ -1,0 +1,24 @@
+@import "@fontsource/cormorant-garamond/latin-400.css";
+@import "@fontsource/cormorant-garamond/latin-500.css";
+@import "@fontsource/cormorant-garamond/latin-600.css";
+@import "@fontsource/inter/latin-400.css";
+@import "@fontsource/inter/latin-500.css";
+@import "@fontsource/inter/latin-600.css";
+@import "@fontsource/caveat/latin-400.css";
+
+:root {
+  --aster-bg: #f3efe8;
+  --aster-paper: #fffcf8;
+  --aster-soft: #f7f3ee;
+  --aster-ink: #25221e;
+  --aster-muted: #6f685f;
+  --aster-line: #ded7ce;
+  --aster-button: #29251f;
+  --aster-serif: "Cormorant Garamond", Georgia, serif;
+  --aster-sans: "Inter", Arial, sans-serif;
+  --aster-script: "Caveat", cursive;
+  --aster-max: 1440px;
+  --aster-content: 1280px;
+  --aster-gutter: clamp(20px, 4vw, 48px);
+  --aster-ease: 300ms ease;
+}

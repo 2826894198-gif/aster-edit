@@ -1,0 +1,178 @@
+/* Shop uses one white canvas, including the shared header and outer gutters. */
+body:has(.aster-shop-page),
+.aster-site:has(> .aster-shop-page),
+.aster-site:has(> .aster-shop-page) .aster-header,
+.aster-shop-library .aster-home-collection-card {
+  background: #fff;
+}
+
+/* Compact object entrances lead into the six-collection library. */
+.aster-shop-objects {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 24px;
+}
+.aster-shop-object {
+  display: grid;
+  grid-template-columns: minmax(0, 0.9fr) minmax(0, 1.1fr);
+  min-width: 0;
+  color: var(--aster-ink);
+  background: #fff;
+  text-decoration: none;
+}
+.aster-shop-object-image {
+  display: grid;
+  place-items: center;
+  min-width: 0;
+  padding: 12px;
+  background: #fff;
+}
+.aster-shop-object-image img {
+  width: 100%;
+  height: 100%;
+  max-height: 248px;
+  object-fit: contain;
+}
+.aster-shop-object-crystal .aster-shop-object-image {
+  padding: 20px;
+}
+.aster-shop-object-copy {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 12px;
+  min-width: 0;
+  padding: 24px;
+}
+.aster-shop-object-copy h2 {
+  margin: 0;
+  font: 500 clamp(26px, 2.4vw, 34px)/1.05 var(--aster-serif);
+  letter-spacing: -0.025em;
+  text-wrap: balance;
+}
+.aster-shop-object-options {
+  color: #625b53;
+  font: 500 12px/1.4 var(--aster-sans);
+}
+.aster-shop-object-description {
+  color: var(--aster-muted);
+  font: 400 14px/1.5 var(--aster-sans);
+}
+.aster-shop-object-price {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: baseline;
+  gap: 4px 8px;
+  margin-top: auto;
+  font: 500 17px/1.4 var(--aster-sans);
+}
+.aster-shop-object-price small,
+.aster-shop-object-price del {
+  color: #625b53;
+  font: 400 12px/1.5 var(--aster-sans);
+}
+.aster-shop-object-action {
+  color: var(--aster-ink);
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  padding-bottom: 2px;
+  border-bottom: 1px solid currentColor;
+  font: 500 12px/1.5 var(--aster-sans);
+  transition: color 180ms ease;
+}
+.aster-shop-object-action svg {
+  flex-shrink: 0;
+}
+.aster-shop-object:hover .aster-shop-object-action {
+  color: var(--aster-ink);
+  color: #73583c;
+}
+.aster-shop-object:focus-visible {
+  outline: 2px solid var(--aster-ink);
+  outline-offset: 4px;
+}
+.aster-shop-tableware-heading {
+  display: flex;
+  align-items: baseline;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  gap: 8px 16px;
+  margin: 32px 0 16px;
+}
+.aster-shop-tableware-heading h2 {
+  margin: 0;
+  font: 500 30px/1.1 var(--aster-serif);
+  letter-spacing: -0.025em;
+}
+.aster-shop-tableware-heading > span {
+  color: var(--aster-muted);
+  font: 400 12px/1.5 var(--aster-sans);
+}
+.aster-shop-library .aster-home-collection-grid {
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+}
+@media (max-width: 1000px) {
+  .aster-shop-objects {
+    grid-template-columns: 1fr;
+    gap: 16px;
+  }
+  .aster-shop-object {
+    grid-template-columns: minmax(0, 0.8fr) minmax(0, 1.2fr);
+  }
+  .aster-shop-object-image img {
+    max-height: 208px;
+  }
+  .aster-shop-library .aster-home-collection-grid {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+}
+@media (max-width: 720px) {
+  .aster-shop-object {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+  .aster-shop-object-copy {
+    gap: 8px;
+    padding: 16px 12px;
+    justify-content: center;
+  }
+  .aster-shop-object-copy h2 {
+    font-size: clamp(21px, 6vw, 24px);
+  }
+  .aster-shop-object-description {
+    display: none;
+  }
+  .aster-shop-object-image,
+  .aster-shop-object-crystal .aster-shop-object-image {
+    padding: 4px;
+  }
+  .aster-shop-object-price {
+    margin-top: 4px;
+    font-size: 16px;
+  }
+  .aster-shop-tableware-heading {
+    margin-top: 24px;
+  }
+  .aster-shop-tableware-heading h2 {
+    font-size: 27px;
+  }
+  .aster-shop-library .aster-home-collection-grid {
+    grid-template-columns: 1fr;
+  }
+}
+@media (prefers-reduced-motion: reduce) {
+  .aster-shop-object-action {
+  color: var(--aster-ink);
+    transition: none;
+  }
+}
+
+/* A third object joins the archive: equal columns prevent an orphan card. */
+@media (min-width: 1001px) {
+  .aster-shop-objects-extended { grid-template-columns: repeat(3, minmax(0, 1fr)); }
+  .aster-shop-objects-extended .aster-shop-object { grid-template-columns: 1fr; grid-template-rows: 232px 1fr; }
+  .aster-shop-objects-extended .aster-shop-object-image { padding: 16px; }
+  .aster-shop-objects-extended .aster-shop-object-image img { max-height: 200px; }
+  .aster-shop-objects-extended .aster-shop-object-copy { padding: 24px; }
+  .aster-shop-objects-extended .aster-shop-object-copy h2 { font-size: clamp(28px, 2.4vw, 34px); }
+}

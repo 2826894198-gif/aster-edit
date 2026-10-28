@@ -1,0 +1,13 @@
+.cup-model-viewer { position: relative; width: 100%; aspect-ratio: 4/3; overflow: hidden; background: #fff; isolation: isolate; }
+.cup-page-main-photo .cup-model-poster { position: absolute; inset: 0; width: 100%; height: 100%; object-fit: contain; transition: opacity .2s; }
+.cup-model-canvas { position: absolute; inset: 20px 0 40px; opacity: 0; }
+.cup-model-canvas canvas { display: block; width: 100%; height: 100%; touch-action: none; }
+.cup-model-viewer.is-ready .cup-model-poster { opacity: 0; pointer-events: none; }
+.cup-model-viewer.is-ready .cup-model-canvas { opacity: 1; }
+.cup-model-hint { position: absolute; bottom: 15px; left: 12px; width: fit-content; max-width: calc(100% - 144px); margin: 0; padding: 7px 10px; background: rgb(255 255 255 / 94%); color: #626a6b; font: 400 10px/1.4 var(--aster-sans); pointer-events: none; }
+.cup-model-hint-short { display: none; }
+.cup-model-controls { position: absolute; top: 12px; right: 12px; display: flex; gap: 8px; }
+.cup-model-controls button { display: inline-flex; align-items: center; justify-content: center; width: 44px; min-height: 44px; padding: 8px; border: 1px solid #dfe2df; background: rgb(255 255 255 / 95%); color: #303a3c; cursor: pointer; }
+.cup-model-controls button:disabled { opacity: .55; cursor: default; }
+@media(max-width:720px) { .cup-model-viewer { aspect-ratio: 1; } .cup-model-canvas { inset: 28px 0 48px; } .cup-model-hint { bottom: 22px; left: 8px; padding: 5px 7px; font-size: 9px; max-width: calc(100% - 112px); } .cup-model-hint-long { display: none; } .cup-model-hint-short { display: inline; } .cup-model-controls { top: 8px; right: 8px; gap: 4px; } }
+@media(prefers-reduced-motion:reduce) { .cup-page-main-photo .cup-model-poster { transition: none; } }
