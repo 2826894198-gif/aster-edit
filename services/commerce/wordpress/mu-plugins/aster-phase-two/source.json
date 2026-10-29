@@ -1,0 +1,31 @@
+{
+  "date": "2026-10-16",
+  "mode": "local-only opt-in",
+  "reference_project": "Animate Goods",
+  "reference_files": [
+    {
+      "path": "deploy/wordpress/mu-plugins/animate-goods-unpaid-order-admin-alerts.php",
+      "sha256": "41759cd7338978092ffede9b25ff3c6c42fd13c8cb068fb96d48315308edc77d"
+    },
+    {
+      "path": "deploy/wordpress/mu-plugins/animate-goods-product-reviews.php",
+      "sha256": "db3fa7101fabd9b3c5b71b130f29d17a19200530d3d8facd72bacb9aee44397c"
+    },
+    {
+      "path": "deploy/wordpress/mu-plugins/animate-goods-review-photos.php",
+      "sha256": "553ed568654a29fdac7cda9c051ebbd4de389c1e244e94790ac81b6ef08d0991"
+    }
+  ],
+  "native_dependency": {
+    "WooCommerce": "11.1.1",
+    "email_header_template": "10.7.0",
+    "reset_and_account_email_templates_read": "10.9.0"
+  },
+  "adaptation": [
+    "Independent Aster namespaces and data; no runtime reference imports",
+    "Native Woo password reset and transactional email transport retained",
+    "Delayed unpaid alerts recheck status and deduplicate; no audio production schedule",
+    "Item-bound purchase proof, private images and native comment moderation",
+    "No JWK entities, joint-operation content, customer data, credentials or gateways"
+  ]
+}

@@ -1,0 +1,84 @@
+name: aster-commerce-dev
+
+x-wordpress-environment: &wordpress-environment
+  WORDPRESS_DB_HOST: db:3306
+  WORDPRESS_DB_NAME: aster_commerce_dev
+  WORDPRESS_DB_USER: aster_commerce_dev
+  WORDPRESS_DB_PASSWORD_FILE: /run/secrets/db_password
+  WORDPRESS_TABLE_PREFIX: aster_
+  WORDPRESS_CONFIG_EXTRA: |
+    define('WP_ENVIRONMENT_TYPE', 'local');
+    define('ASTER_COMMERCE_ENV', 'local');
+    define('ASTER_ALLOW_LIVE_PAYMENTS', false);
+    define('WP_AUTO_UPDATE_CORE', false);
+    define('AUTOMATIC_UPDATER_DISABLED', true);
+    define('DISALLOW_FILE_EDIT', true);
+    define('WP_MEMORY_LIMIT', '256M');
+    define('WP_MAX_MEMORY_LIMIT', '512M');
+
+services:
+  db:
+    image: mariadb:11.4@sha256:70cc072b29b4a89ae07abb2d4da2c64678a7f2dfe092751bb51c87d67dc1338b
+    environment:
+      MARIADB_DATABASE: aster_commerce_dev
+      MARIADB_USER: aster_commerce_dev
+      MARIADB_PASSWORD_FILE: /run/secrets/db_password
+      MARIADB_ROOT_PASSWORD_FILE: /run/secrets/db_root_password
+    secrets: [db_password, db_root_password]
+    volumes: [database:/var/lib/mysql]
+    healthcheck:
+      test: [CMD, healthcheck.sh, --connect, --innodb_initialized]
+      interval: 5s
+      timeout: 5s
+      retries: 30
+    restart: unless-stopped
+
+  wordpress:
+    image: wordpress:7.1.1-php8.3-apache@sha256:51464c8fdb100c5cd2ebfaec1834cf111d993bc4929ef2330c1cc721eda0fc30
+    ports: ["127.0.0.1:8088:80"]
+    environment: *wordpress-environment
+    secrets: [db_password]
+    volumes:
+      - wordpress:/var/www/html
+      - ./wordpress/mu-plugins:/var/www/html/wp-content/mu-plugins:ro
+    depends_on:
+      db: {condition: service_healthy}
+      mailpit: {condition: service_started}
+    restart: unless-stopped
+
+  cli:
+    image: wordpress:cli-php8.3@sha256:46b3add1dbd834018a9c22bb05a2fa9303f6139d8ac7337dc97cf9424072cd77
+    user: "33:33"
+    profiles: [tools]
+    environment: *wordpress-environment
+    secrets: [db_password, admin_password]
+    volumes:
+      - wordpress:/var/www/html
+      - ./wordpress/mu-plugins:/var/www/html/wp-content/mu-plugins:ro
+      - ./scripts:/workspace/scripts:ro
+      - ./tests:/workspace/tests:ro
+      - ./catalog:/workspace/catalog:ro
+      - ./.runtime/packages:/workspace/packages:ro
+    depends_on:
+      db: {condition: service_healthy}
+
+  mailpit:
+    image: axllent/mailpit:v1.27@sha256:e22dce5b36f93c77082e204a3942fb6b283b7896e057458400a4c88344c3df68
+    ports: ["127.0.0.1:8028:8025"]
+    environment:
+      MP_DATABASE: /data/mailpit.db
+    volumes: [mail:/data]
+    restart: unless-stopped
+
+volumes:
+  wordpress:
+  database:
+  mail:
+
+secrets:
+  db_password:
+    file: ./.secrets/db_password
+  db_root_password:
+    file: ./.secrets/db_root_password
+  admin_password:
+    file: ./.secrets/admin_password

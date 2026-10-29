@@ -1,0 +1,114 @@
+{
+  "schema_version": 1,
+  "reviewed_on": "2026-09-23",
+  "environment": "local-test-only",
+  "currency": "USD",
+  "shipping": {
+    "free_shipping_threshold": 150,
+    "international_shipping_below_threshold": 30,
+    "enforcement": "pending-policy-review"
+  },
+  "items": {
+    "mood-monet-garden-green:01": { "price": 69, "availability": "available", "approved": false },
+    "mood-monet-garden-green:02": { "price": 69, "availability": "available", "approved": false },
+    "mood-monet-garden-green:03": { "price": 36, "availability": "available", "approved": false },
+    "mood-mist-blue-petal:01": { "price": 49, "availability": "available", "approved": false },
+    "mood-mist-blue-petal:02": { "price": 36, "availability": "available", "approved": false },
+    "mood-mist-blue-petal:03": { "price": 42, "availability": "available", "approved": false },
+    "mood-mist-blue-petal:04": { "price": 62, "availability": "out-of-stock", "approved": false },
+    "mood-ocean-blue-plates:01": { "price": 90, "availability": "available", "approved": false },
+    "mood-ocean-blue-plates:02": { "price": 60, "availability": "out-of-stock", "approved": false },
+    "mood-ocean-blue-plates:03": { "price": 70, "availability": "available", "approved": false },
+    "fangju-yellow-petal:01": { "price": 29, "availability": "available", "approved": false },
+    "fangju-yellow-petal:02": { "price": 39, "availability": "available", "approved": false },
+    "fangju-yellow-petal:03": { "price": 45, "availability": "available", "approved": false },
+    "fangju-yellow-petal:04": { "price": 29, "availability": "available", "approved": false },
+    "fangju-yellow-petal:05": { "price": 39, "availability": "available", "approved": false },
+    "fangju-yellow-petal:06": { "price": 49, "availability": "available", "approved": false },
+    "fangju-yellow-petal:07": { "price": 39, "availability": "available", "approved": false },
+    "suhuo-matte-ivory:01": { "price": null, "availability": "gift-only", "approved": false },
+    "suhuo-matte-ivory:02": { "price": null, "availability": "gift-only", "approved": false },
+    "suhuo-matte-ivory:03": { "price": 50, "availability": "available", "approved": false },
+    "suhuo-matte-ivory:04": { "price": 40, "availability": "available", "approved": false },
+    "suhuo-matte-ivory:05": { "price": 120, "availability": "available", "approved": false },
+    "suhuo-matte-ivory:06": { "price": 80, "availability": "available", "approved": false },
+    "suhuo-matte-ivory:07": { "price": 60, "availability": "available", "approved": false },
+    "suhuo-matte-ivory:08": { "price": 90, "availability": "available", "approved": false },
+    "suhuo-matte-ivory:09": { "price": 60, "availability": "available", "approved": false },
+    "suhuo-matte-ivory:10": { "price": 70, "availability": "available", "approved": false },
+    "suhuo-matte-ivory:11": { "price": 100, "availability": "available", "approved": false },
+    "suhuo-matte-ivory:12": { "price": 130, "availability": "available", "approved": false },
+    "suhuo-matte-ivory:13": { "price": 40, "availability": "available", "approved": false },
+    "suhuo-matte-ivory:14": { "price": 80, "availability": "available", "approved": false },
+    "suhuo-matte-ivory:15": { "price": 80, "availability": "available", "approved": false },
+    "suhuo-matte-ivory:16": { "price": 100, "availability": "available", "approved": false },
+    "suhuo-matte-ivory:17": { "price": 80, "availability": "available", "approved": false },
+    "suhuo-matte-ivory:18": { "price": 100, "availability": "available", "approved": false },
+    "suhuo-matte-ivory:19": { "price": 80, "availability": "available", "approved": false },
+    "suhuo-matte-ivory:20": { "price": 100, "availability": "available", "approved": false },
+    "orange-peel-oval-plate:01": { "price": 60, "availability": "available", "approved": false }
+  },
+  "set_offers": {
+    "mood-monet-garden-green:full-set": {
+      "name": "Mood Monet Garden Green · Full Set",
+      "price": 160,
+      "availability": "available",
+      "includes_gift": true,
+      "approved": false,
+      "components": {
+        "mood-monet-garden-green:01": 1,
+        "mood-monet-garden-green:02": 1,
+        "mood-monet-garden-green:03": 1
+      }
+    },
+    "mood-mist-blue-petal:full-set": {
+      "name": "Mood Mist Blue Petal · Full Set",
+      "price": 170,
+      "availability": "out-of-stock",
+      "includes_gift": true,
+      "approved": false,
+      "components": {
+        "mood-mist-blue-petal:01": 1,
+        "mood-mist-blue-petal:02": 1,
+        "mood-mist-blue-petal:03": 1,
+        "mood-mist-blue-petal:04": 1
+      }
+    },
+    "mood-ocean-blue-plates:full-set": {
+      "name": "Mood Ocean Blue Plates · Full Set",
+      "price": 200,
+      "availability": "out-of-stock",
+      "includes_gift": true,
+      "approved": false,
+      "components": {
+        "mood-ocean-blue-plates:01": 1,
+        "mood-ocean-blue-plates:02": 1,
+        "mood-ocean-blue-plates:03": 1
+      }
+    },
+    "fangju-yellow-petal:full-set": {
+      "name": "Fangju Yellow Petal · Full Set",
+      "price": 229,
+      "availability": "available",
+      "includes_gift": true,
+      "approved": false,
+      "components": {
+        "fangju-yellow-petal:01": 1,
+        "fangju-yellow-petal:02": 1,
+        "fangju-yellow-petal:03": 1,
+        "fangju-yellow-petal:04": 1,
+        "fangju-yellow-petal:05": 1,
+        "fangju-yellow-petal:06": 1,
+        "fangju-yellow-petal:07": 1
+      }
+    }
+  },
+  "remaining_gates": [
+    "tax treatment",
+    "sellable regions",
+    "returns policy",
+    "material and food-contact evidence",
+    "commercial image rights",
+    "fulfillment acceptance"
+  ]
+}

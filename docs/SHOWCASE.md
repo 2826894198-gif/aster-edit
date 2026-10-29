@@ -1,36 +1,20 @@
-# Aster Edit · 生活方式电商品牌 · 项目展示
+# Aster Edit · 展示说明
 
 ## 一句话介绍
 
-让一个商品系列，拥有从品牌故事到完整购买页的英文电商体验。
+从品牌内容、系列故事和商品选择，连接到独立运行的账户、订单与客户服务。
 
-## 项目价值
+## 建议演示路径
 
-以商品事实和真实素材为基础，把系列故事、完整商品页、响应式图片与购买入口组织成协调的英文电商体验，并保留可追溯的发布与回退证据。
+先展示 `apps/storefront/` 的系列、Shop、搜索和商品页，说明商品内容与选择如何关联到购物袋；再通过合成数据说明 `services/commerce/` 的交接、账户、订单访问和恢复校验。两套模块共享版本入口，运行配置与交易服务保持分离。
 
-## 最值得展示的能力
+可以介绍 Prism 十二星座选择、Vertex 八个稳定 SKU、响应式图片与静态预渲染，以及 WooCommerce 原生订单/官方支付的职责划分。真实照片与已标识的 AI 展示图应分别讲清，不能把可视化图像当作商品实拍或交易事实。
 
-- 系列、搜索、Shop 与商品详情旅程
-- Prism 十二星座选择、比较联动与上下文购买条
-- Vertex 八个稳定 SKU、购物袋与直接购买映射
+## 对外表述边界
 
-## 展示依据
+- 这是公开源码和合成数据演示，不是生产数据库或商户环境镜像。
+- 前端来源快照有构建记录，production metadata 定向检查为 8/9；杯页旧锚点断言仍未通过。
+- 官方支付集成、合成付款预览和购买入口不等于真实付款、退款、webhook、邮件或对账已完成。
+- 不宣称未测量的销量、收入、转化、排名或完整支付验收结果。
 
-- docs/commerce/shop-mobile-balance-release-20261027.md
-- docs/commerce/prism-complete-pdp-release-20261023.md
-- docs/commerce/vertex-purchase-release-20261022.md
-- docs/commerce/integrated-features-release-20261016.md
-- deploy/shop-mobile-balance-20261027-v1/source/package.json
-
-## 说明范围
-
-当前阶段：导出应以已核验的 shop-mobile-balance-20261027-v1/source 为主线，最新明确生产发布为 2026-10-27。顶层 dirty main 不代表生产。
-
-- 归档 source/public 是稀疏输入，不能在未补齐素材的情况下声称完全独立构建。
-- 不从 dirty main 或旧 4194 预览发布。
-- Prism 十二张杯底可视化为 AI 生成，实拍与生成展示必须区分。
-- Vertex 尺寸、容量与供货信息未知，不沿用 Prism 参数。
-- 购买入口/结账准备验证不等于真实付款、capture、邮件送达或搜索收录。
-- 没有测量转化、收入或排名提升，不能作为营销成效数字。
-
-对外演示使用合成数据。源码、演示、历史验收记录与实时线上状态分别说明；任何效果数字都需要可追溯的测量记录。
+验收范围见 [VALIDATION.md](VALIDATION.md)，未完成事项见 [KNOWN_ISSUES.md](KNOWN_ISSUES.md)，来源与权利见 [SOURCES.md](SOURCES.md) 和 [RIGHTS.md](../RIGHTS.md)。

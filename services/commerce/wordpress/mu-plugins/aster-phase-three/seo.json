@@ -1,0 +1,963 @@
+{
+  "preview": true,
+  "routes": [
+    {
+      "path": "/products/rolling-bead-ceramic-cup",
+      "title": "Ceramic Fidget Mug with Rolling Bead | Aster Edit",
+      "description": "Explore Aster Edit’s rolling-bead ceramic cup in three colours. See the thumb-roll detail, capacity and care guidance. USD 68 each with free shipping on cup-only orders.",
+      "label": "Ceramic Fidget Mug with Rolling Bead",
+      "h1": "Rolling-bead ceramic cup",
+      "eligible": false,
+      "fullHtml": true,
+      "types": [
+        "Organization",
+        "WebSite",
+        "WebPage",
+        "BreadcrumbList"
+      ],
+      "schema": {
+        "@context": "https://schema.org",
+        "@graph": [
+          {
+            "@type": "Organization",
+            "@id": "https://asteredit.com/#organization",
+            "name": "Aster Edit",
+            "url": "https://asteredit.com/"
+          },
+          {
+            "@type": "WebSite",
+            "@id": "https://asteredit.com/#website",
+            "url": "https://asteredit.com/",
+            "name": "Aster Edit",
+            "inLanguage": "en-US",
+            "publisher": {
+              "@id": "https://asteredit.com/#organization"
+            }
+          },
+          {
+            "@type": "WebPage",
+            "@id": "https://asteredit.com/products/rolling-bead-ceramic-cup#webpage",
+            "url": "https://asteredit.com/products/rolling-bead-ceramic-cup",
+            "name": "Ceramic Fidget Mug with Rolling Bead | Aster Edit",
+            "description": "Explore Aster Edit’s rolling-bead ceramic cup in three colours. See the thumb-roll detail, capacity and care guidance. USD 68 each with free shipping on cup-only orders.",
+            "isPartOf": {
+              "@id": "https://asteredit.com/#website"
+            },
+            "inLanguage": "en-US",
+            "primaryImageOfPage": {
+              "@type": "ImageObject",
+              "url": "https://asteredit.com/images/aster/cup-preview/catalogue/three-colours-staggered-white-v2.png"
+            }
+          },
+          {
+            "@type": "BreadcrumbList",
+            "itemListElement": [
+              {
+                "@type": "ListItem",
+                "position": 1,
+                "name": "Home",
+                "item": "https://asteredit.com/"
+              },
+              {
+                "@type": "ListItem",
+                "position": 2,
+                "name": "Ceramic Fidget Mug with Rolling Bead | Aster Edit",
+                "item": "https://asteredit.com/products/rolling-bead-ceramic-cup"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "path": "/",
+      "title": "Curated Ceramic Tableware & Fidget Mug | Aster Edit",
+      "description": "Explore Aster Edit’s rolling-bead ceramic cup in three colours, alongside six ceramic tableware edits chosen for form, colour and everyday use.",
+      "label": "Curated Ceramic Tableware & Fidget Mug",
+      "h1": "A little pause, in your hands.",
+      "eligible": true,
+      "fullHtml": true,
+      "types": [
+        "Organization",
+        "WebSite",
+        "WebPage"
+      ],
+      "schema": {
+        "@context": "https://schema.org",
+        "@graph": [
+          {
+            "@type": "Organization",
+            "@id": "https://asteredit.com/#organization",
+            "name": "Aster Edit",
+            "url": "https://asteredit.com/"
+          },
+          {
+            "@type": "WebSite",
+            "@id": "https://asteredit.com/#website",
+            "url": "https://asteredit.com/",
+            "name": "Aster Edit",
+            "inLanguage": "en-US",
+            "publisher": {
+              "@id": "https://asteredit.com/#organization"
+            }
+          },
+          {
+            "@type": "WebPage",
+            "@id": "https://asteredit.com/#webpage",
+            "url": "https://asteredit.com/",
+            "name": "Curated Ceramic Tableware & Fidget Mug | Aster Edit",
+            "description": "Explore Aster Edit’s rolling-bead ceramic cup in three colours, alongside six ceramic tableware edits chosen for form, colour and everyday use.",
+            "isPartOf": {
+              "@id": "https://asteredit.com/#website"
+            },
+            "inLanguage": "en-US",
+            "primaryImageOfPage": {
+              "@type": "ImageObject",
+              "url": "https://asteredit.com/images/aster/cup-preview/cup-hero-desktop-v1.webp"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "path": "/shop",
+      "title": "Shop Ceramic Tableware & Rolling-Bead Cup | Aster Edit",
+      "description": "Explore Aster Edit's six ceramic collections and the rolling-bead cup in three colours. Compare individual objects, forms and available choices.",
+      "label": "Shop Ceramic Tableware & Rolling-Bead Cup",
+      "h1": "Shop the Archive",
+      "eligible": true,
+      "fullHtml": true,
+      "types": [
+        "Organization",
+        "WebSite",
+        "CollectionPage",
+        "BreadcrumbList"
+      ],
+      "schema": {
+        "@context": "https://schema.org",
+        "@graph": [
+          {
+            "@type": "Organization",
+            "@id": "https://asteredit.com/#organization",
+            "name": "Aster Edit",
+            "url": "https://asteredit.com/"
+          },
+          {
+            "@type": "WebSite",
+            "@id": "https://asteredit.com/#website",
+            "url": "https://asteredit.com/",
+            "name": "Aster Edit",
+            "inLanguage": "en-US",
+            "publisher": {
+              "@id": "https://asteredit.com/#organization"
+            }
+          },
+          {
+            "@type": "CollectionPage",
+            "@id": "https://asteredit.com/shop#webpage",
+            "url": "https://asteredit.com/shop",
+            "name": "Shop Ceramic Tableware & Rolling-Bead Cup | Aster Edit",
+            "description": "Explore Aster Edit's six ceramic collections and the rolling-bead cup in three colours. Compare individual objects, forms and available choices.",
+            "isPartOf": {
+              "@id": "https://asteredit.com/#website"
+            },
+            "inLanguage": "en-US",
+            "primaryImageOfPage": {
+              "@type": "ImageObject",
+              "url": "https://asteredit.com/images/aster/series-entry/generated/suhuo-matte-ivory-v1.png"
+            },
+            "mainEntity": {
+              "@type": "ItemList",
+              "itemListElement": [
+                {
+                  "@type": "ListItem",
+                  "position": 1,
+                  "name": "Pale Ground",
+                  "url": "https://asteredit.com/products/pale-ground-ivory-ceramics"
+                },
+                {
+                  "@type": "ListItem",
+                  "position": 2,
+                  "name": "Sunfold",
+                  "url": "https://asteredit.com/products/sunfold-fluted-ceramics"
+                },
+                {
+                  "@type": "ListItem",
+                  "position": 3,
+                  "name": "Garden Shift",
+                  "url": "https://asteredit.com/products/garden-shift-green-ceramics"
+                },
+                {
+                  "@type": "ListItem",
+                  "position": 4,
+                  "name": "Petal Haze",
+                  "url": "https://asteredit.com/products/petal-haze-blue-ceramics"
+                },
+                {
+                  "@type": "ListItem",
+                  "position": 5,
+                  "name": "Open Tide",
+                  "url": "https://asteredit.com/products/open-tide-blue-plates"
+                },
+                {
+                  "@type": "ListItem",
+                  "position": 6,
+                  "name": "Citrus Note",
+                  "url": "https://asteredit.com/products/citrus-note-oval-plate"
+                }
+              ]
+            }
+          },
+          {
+            "@type": "BreadcrumbList",
+            "itemListElement": [
+              {
+                "@type": "ListItem",
+                "position": 1,
+                "name": "Home",
+                "item": "https://asteredit.com/"
+              },
+              {
+                "@type": "ListItem",
+                "position": 2,
+                "name": "Shop Ceramic Tableware & Rolling-Bead Cup | Aster Edit",
+                "item": "https://asteredit.com/shop"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "path": "/collections",
+      "title": "Ceramic Tableware Collections | Aster Edit",
+      "description": "Compare six curated ceramic collections by silhouette, surface and colour, from ivory forms to fluted bowls and blue serving plates.",
+      "label": "Ceramic Tableware Collections",
+      "h1": "Collections",
+      "eligible": true,
+      "fullHtml": true,
+      "types": [
+        "Organization",
+        "WebSite",
+        "CollectionPage",
+        "BreadcrumbList"
+      ],
+      "schema": {
+        "@context": "https://schema.org",
+        "@graph": [
+          {
+            "@type": "Organization",
+            "@id": "https://asteredit.com/#organization",
+            "name": "Aster Edit",
+            "url": "https://asteredit.com/"
+          },
+          {
+            "@type": "WebSite",
+            "@id": "https://asteredit.com/#website",
+            "url": "https://asteredit.com/",
+            "name": "Aster Edit",
+            "inLanguage": "en-US",
+            "publisher": {
+              "@id": "https://asteredit.com/#organization"
+            }
+          },
+          {
+            "@type": "CollectionPage",
+            "@id": "https://asteredit.com/collections#webpage",
+            "url": "https://asteredit.com/collections",
+            "name": "Ceramic Tableware Collections | Aster Edit",
+            "description": "Compare six curated ceramic collections by silhouette, surface and colour, from ivory forms to fluted bowls and blue serving plates.",
+            "isPartOf": {
+              "@id": "https://asteredit.com/#website"
+            },
+            "inLanguage": "en-US",
+            "primaryImageOfPage": {
+              "@type": "ImageObject",
+              "url": "https://asteredit.com/images/aster/series-entry/generated/suhuo-matte-ivory-v1.png"
+            },
+            "mainEntity": {
+              "@type": "ItemList",
+              "itemListElement": [
+                {
+                  "@type": "ListItem",
+                  "position": 1,
+                  "name": "Pale Ground",
+                  "url": "https://asteredit.com/products/pale-ground-ivory-ceramics"
+                },
+                {
+                  "@type": "ListItem",
+                  "position": 2,
+                  "name": "Sunfold",
+                  "url": "https://asteredit.com/products/sunfold-fluted-ceramics"
+                },
+                {
+                  "@type": "ListItem",
+                  "position": 3,
+                  "name": "Garden Shift",
+                  "url": "https://asteredit.com/products/garden-shift-green-ceramics"
+                },
+                {
+                  "@type": "ListItem",
+                  "position": 4,
+                  "name": "Petal Haze",
+                  "url": "https://asteredit.com/products/petal-haze-blue-ceramics"
+                },
+                {
+                  "@type": "ListItem",
+                  "position": 5,
+                  "name": "Open Tide",
+                  "url": "https://asteredit.com/products/open-tide-blue-plates"
+                },
+                {
+                  "@type": "ListItem",
+                  "position": 6,
+                  "name": "Citrus Note",
+                  "url": "https://asteredit.com/products/citrus-note-oval-plate"
+                }
+              ]
+            }
+          },
+          {
+            "@type": "BreadcrumbList",
+            "itemListElement": [
+              {
+                "@type": "ListItem",
+                "position": 1,
+                "name": "Home",
+                "item": "https://asteredit.com/"
+              },
+              {
+                "@type": "ListItem",
+                "position": 2,
+                "name": "Ceramic Tableware Collections | Aster Edit",
+                "item": "https://asteredit.com/collections"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "path": "/about",
+      "title": "Our Approach to Curated Ceramics | Aster Edit",
+      "description": "Learn how Aster Edit chooses individual ceramic forms by proportion, surface and use, then brings them together as a considered table.",
+      "label": "Our Approach to Curated Ceramics",
+      "h1": "A table assembled by relationship, not sameness.",
+      "eligible": true,
+      "fullHtml": true,
+      "types": [
+        "Organization",
+        "WebSite",
+        "AboutPage",
+        "BreadcrumbList"
+      ],
+      "schema": {
+        "@context": "https://schema.org",
+        "@graph": [
+          {
+            "@type": "Organization",
+            "@id": "https://asteredit.com/#organization",
+            "name": "Aster Edit",
+            "url": "https://asteredit.com/"
+          },
+          {
+            "@type": "WebSite",
+            "@id": "https://asteredit.com/#website",
+            "url": "https://asteredit.com/",
+            "name": "Aster Edit",
+            "inLanguage": "en-US",
+            "publisher": {
+              "@id": "https://asteredit.com/#organization"
+            }
+          },
+          {
+            "@type": "AboutPage",
+            "@id": "https://asteredit.com/about#webpage",
+            "url": "https://asteredit.com/about",
+            "name": "Our Approach to Curated Ceramics | Aster Edit",
+            "description": "Learn how Aster Edit chooses individual ceramic forms by proportion, surface and use, then brings them together as a considered table.",
+            "isPartOf": {
+              "@id": "https://asteredit.com/#website"
+            },
+            "inLanguage": "en-US",
+            "primaryImageOfPage": {
+              "@type": "ImageObject",
+              "url": "https://asteredit.com/images/aster/home-prototype/about-hero-real-v2.jpg"
+            }
+          },
+          {
+            "@type": "BreadcrumbList",
+            "itemListElement": [
+              {
+                "@type": "ListItem",
+                "position": 1,
+                "name": "Home",
+                "item": "https://asteredit.com/"
+              },
+              {
+                "@type": "ListItem",
+                "position": 2,
+                "name": "Our Approach to Curated Ceramics | Aster Edit",
+                "item": "https://asteredit.com/about"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "path": "/shipping-returns",
+      "title": "Shipping & Returns | Aster Edit",
+      "description": "International shipping charges and customer return rights for Aster Edit.",
+      "label": "Shipping & Returns",
+      "h1": "Shipping & Returns",
+      "eligible": true,
+      "fullHtml": true,
+      "types": [
+        "Organization",
+        "WebSite",
+        "WebPage",
+        "BreadcrumbList"
+      ],
+      "schema": {
+        "@context": "https://schema.org",
+        "@graph": [
+          {
+            "@type": "Organization",
+            "@id": "https://asteredit.com/#organization",
+            "name": "Aster Edit",
+            "url": "https://asteredit.com/"
+          },
+          {
+            "@type": "WebSite",
+            "@id": "https://asteredit.com/#website",
+            "url": "https://asteredit.com/",
+            "name": "Aster Edit",
+            "inLanguage": "en-US",
+            "publisher": {
+              "@id": "https://asteredit.com/#organization"
+            }
+          },
+          {
+            "@type": "WebPage",
+            "@id": "https://asteredit.com/shipping-returns#webpage",
+            "url": "https://asteredit.com/shipping-returns",
+            "name": "Shipping & Returns | Aster Edit",
+            "description": "International shipping charges and customer return rights for Aster Edit.",
+            "isPartOf": {
+              "@id": "https://asteredit.com/#website"
+            },
+            "inLanguage": "en-US"
+          },
+          {
+            "@type": "BreadcrumbList",
+            "itemListElement": [
+              {
+                "@type": "ListItem",
+                "position": 1,
+                "name": "Home",
+                "item": "https://asteredit.com/"
+              },
+              {
+                "@type": "ListItem",
+                "position": 2,
+                "name": "Shipping & Returns | Aster Edit",
+                "item": "https://asteredit.com/shipping-returns"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "path": "/products/waterline-blue-ceramics",
+      "title": "Waterline Water-Duck-Blue Ceramic Tableware | Aster Edit",
+      "description": "Eight individually purchasable ceramic forms and one complete set in a quiet water-duck blue glaze.",
+      "label": "Waterline Water-Duck-Blue Ceramic Tableware",
+      "h1": "Waterline",
+      "eligible": false,
+      "fullHtml": false,
+      "types": [
+        "Organization",
+        "WebSite",
+        "CollectionPage",
+        "BreadcrumbList"
+      ],
+      "schema": {
+        "@context": "https://schema.org",
+        "@graph": [
+          {
+            "@type": "Organization",
+            "@id": "https://asteredit.com/#organization",
+            "name": "Aster Edit",
+            "url": "https://asteredit.com/"
+          },
+          {
+            "@type": "WebSite",
+            "@id": "https://asteredit.com/#website",
+            "url": "https://asteredit.com/",
+            "name": "Aster Edit",
+            "inLanguage": "en-US",
+            "publisher": {
+              "@id": "https://asteredit.com/#organization"
+            }
+          },
+          {
+            "@type": "CollectionPage",
+            "@id": "https://asteredit.com/products/waterline-blue-ceramics#webpage",
+            "url": "https://asteredit.com/products/waterline-blue-ceramics",
+            "name": "Waterline Water-Duck-Blue Ceramic Tableware | Aster Edit",
+            "description": "Eight individually purchasable ceramic forms and one complete set in a quiet water-duck blue glaze.",
+            "isPartOf": {
+              "@id": "https://asteredit.com/#website"
+            },
+            "inLanguage": "en-US"
+          },
+          {
+            "@type": "BreadcrumbList",
+            "itemListElement": [
+              {
+                "@type": "ListItem",
+                "position": 1,
+                "name": "Home",
+                "item": "https://asteredit.com/"
+              },
+              {
+                "@type": "ListItem",
+                "position": 2,
+                "name": "Collections",
+                "item": "https://asteredit.com/collections"
+              },
+              {
+                "@type": "ListItem",
+                "position": 3,
+                "name": "Waterline Water-Duck-Blue Ceramic Tableware | Aster Edit",
+                "item": "https://asteredit.com/products/waterline-blue-ceramics"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "path": "/products/garden-shift-green-ceramics",
+      "title": "Garden Shift Mottled Green Ceramic Bowls & Plate | Aster Edit",
+      "description": "A bowl, plate and small sauce bowl share a mottled garden-green finish at three distinct scales.",
+      "label": "Garden Shift Mottled Green Ceramic Bowls & Plate",
+      "h1": "Garden Shift",
+      "eligible": true,
+      "fullHtml": true,
+      "types": [
+        "Organization",
+        "WebSite",
+        "CollectionPage",
+        "BreadcrumbList"
+      ],
+      "schema": {
+        "@context": "https://schema.org",
+        "@graph": [
+          {
+            "@type": "Organization",
+            "@id": "https://asteredit.com/#organization",
+            "name": "Aster Edit",
+            "url": "https://asteredit.com/"
+          },
+          {
+            "@type": "WebSite",
+            "@id": "https://asteredit.com/#website",
+            "url": "https://asteredit.com/",
+            "name": "Aster Edit",
+            "inLanguage": "en-US",
+            "publisher": {
+              "@id": "https://asteredit.com/#organization"
+            }
+          },
+          {
+            "@type": "CollectionPage",
+            "@id": "https://asteredit.com/products/garden-shift-green-ceramics#webpage",
+            "url": "https://asteredit.com/products/garden-shift-green-ceramics",
+            "name": "Garden Shift Mottled Green Ceramic Bowls & Plate | Aster Edit",
+            "description": "A bowl, plate and small sauce bowl share a mottled garden-green finish at three distinct scales.",
+            "isPartOf": {
+              "@id": "https://asteredit.com/#website"
+            },
+            "inLanguage": "en-US"
+          },
+          {
+            "@type": "BreadcrumbList",
+            "itemListElement": [
+              {
+                "@type": "ListItem",
+                "position": 1,
+                "name": "Home",
+                "item": "https://asteredit.com/"
+              },
+              {
+                "@type": "ListItem",
+                "position": 2,
+                "name": "Collections",
+                "item": "https://asteredit.com/collections"
+              },
+              {
+                "@type": "ListItem",
+                "position": 3,
+                "name": "Garden Shift Mottled Green Ceramic Bowls & Plate | Aster Edit",
+                "item": "https://asteredit.com/products/garden-shift-green-ceramics"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "path": "/products/petal-haze-blue-ceramics",
+      "title": "Petal Haze Blue-Grey Petal-Rim Bowls & Plates | Aster Edit",
+      "description": "Four flower-rimmed forms share a cool mist-blue finish, with different depths and scales.",
+      "label": "Petal Haze Blue-Grey Petal-Rim Bowls & Plates",
+      "h1": "Petal Haze",
+      "eligible": true,
+      "fullHtml": true,
+      "types": [
+        "Organization",
+        "WebSite",
+        "CollectionPage",
+        "BreadcrumbList"
+      ],
+      "schema": {
+        "@context": "https://schema.org",
+        "@graph": [
+          {
+            "@type": "Organization",
+            "@id": "https://asteredit.com/#organization",
+            "name": "Aster Edit",
+            "url": "https://asteredit.com/"
+          },
+          {
+            "@type": "WebSite",
+            "@id": "https://asteredit.com/#website",
+            "url": "https://asteredit.com/",
+            "name": "Aster Edit",
+            "inLanguage": "en-US",
+            "publisher": {
+              "@id": "https://asteredit.com/#organization"
+            }
+          },
+          {
+            "@type": "CollectionPage",
+            "@id": "https://asteredit.com/products/petal-haze-blue-ceramics#webpage",
+            "url": "https://asteredit.com/products/petal-haze-blue-ceramics",
+            "name": "Petal Haze Blue-Grey Petal-Rim Bowls & Plates | Aster Edit",
+            "description": "Four flower-rimmed forms share a cool mist-blue finish, with different depths and scales.",
+            "isPartOf": {
+              "@id": "https://asteredit.com/#website"
+            },
+            "inLanguage": "en-US"
+          },
+          {
+            "@type": "BreadcrumbList",
+            "itemListElement": [
+              {
+                "@type": "ListItem",
+                "position": 1,
+                "name": "Home",
+                "item": "https://asteredit.com/"
+              },
+              {
+                "@type": "ListItem",
+                "position": 2,
+                "name": "Collections",
+                "item": "https://asteredit.com/collections"
+              },
+              {
+                "@type": "ListItem",
+                "position": 3,
+                "name": "Petal Haze Blue-Grey Petal-Rim Bowls & Plates | Aster Edit",
+                "item": "https://asteredit.com/products/petal-haze-blue-ceramics"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "path": "/products/open-tide-blue-plates",
+      "title": "Open Tide Speckled Blue Ceramic Plates & Platter | Aster Edit",
+      "description": "An oval platter and two round plates carry a fine-speckled ocean blue across three serving scales.",
+      "label": "Open Tide Speckled Blue Ceramic Plates & Platter",
+      "h1": "Open Tide",
+      "eligible": true,
+      "fullHtml": true,
+      "types": [
+        "Organization",
+        "WebSite",
+        "CollectionPage",
+        "BreadcrumbList"
+      ],
+      "schema": {
+        "@context": "https://schema.org",
+        "@graph": [
+          {
+            "@type": "Organization",
+            "@id": "https://asteredit.com/#organization",
+            "name": "Aster Edit",
+            "url": "https://asteredit.com/"
+          },
+          {
+            "@type": "WebSite",
+            "@id": "https://asteredit.com/#website",
+            "url": "https://asteredit.com/",
+            "name": "Aster Edit",
+            "inLanguage": "en-US",
+            "publisher": {
+              "@id": "https://asteredit.com/#organization"
+            }
+          },
+          {
+            "@type": "CollectionPage",
+            "@id": "https://asteredit.com/products/open-tide-blue-plates#webpage",
+            "url": "https://asteredit.com/products/open-tide-blue-plates",
+            "name": "Open Tide Speckled Blue Ceramic Plates & Platter | Aster Edit",
+            "description": "An oval platter and two round plates carry a fine-speckled ocean blue across three serving scales.",
+            "isPartOf": {
+              "@id": "https://asteredit.com/#website"
+            },
+            "inLanguage": "en-US"
+          },
+          {
+            "@type": "BreadcrumbList",
+            "itemListElement": [
+              {
+                "@type": "ListItem",
+                "position": 1,
+                "name": "Home",
+                "item": "https://asteredit.com/"
+              },
+              {
+                "@type": "ListItem",
+                "position": 2,
+                "name": "Collections",
+                "item": "https://asteredit.com/collections"
+              },
+              {
+                "@type": "ListItem",
+                "position": 3,
+                "name": "Open Tide Speckled Blue Ceramic Plates & Platter | Aster Edit",
+                "item": "https://asteredit.com/products/open-tide-blue-plates"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "path": "/products/sunfold-fluted-ceramics",
+      "title": "Sunfold Fluted Ceramic Bowls & Plates | Aster Edit",
+      "description": "Seven bowls, plates and one breakfast cup share fluted petal walls and a warm yellow-green edge.",
+      "label": "Sunfold Fluted Ceramic Bowls & Plates",
+      "h1": "Sun fold",
+      "eligible": true,
+      "fullHtml": true,
+      "types": [
+        "Organization",
+        "WebSite",
+        "CollectionPage",
+        "BreadcrumbList"
+      ],
+      "schema": {
+        "@context": "https://schema.org",
+        "@graph": [
+          {
+            "@type": "Organization",
+            "@id": "https://asteredit.com/#organization",
+            "name": "Aster Edit",
+            "url": "https://asteredit.com/"
+          },
+          {
+            "@type": "WebSite",
+            "@id": "https://asteredit.com/#website",
+            "url": "https://asteredit.com/",
+            "name": "Aster Edit",
+            "inLanguage": "en-US",
+            "publisher": {
+              "@id": "https://asteredit.com/#organization"
+            }
+          },
+          {
+            "@type": "CollectionPage",
+            "@id": "https://asteredit.com/products/sunfold-fluted-ceramics#webpage",
+            "url": "https://asteredit.com/products/sunfold-fluted-ceramics",
+            "name": "Sunfold Fluted Ceramic Bowls & Plates | Aster Edit",
+            "description": "Seven bowls, plates and one breakfast cup share fluted petal walls and a warm yellow-green edge.",
+            "isPartOf": {
+              "@id": "https://asteredit.com/#website"
+            },
+            "inLanguage": "en-US"
+          },
+          {
+            "@type": "BreadcrumbList",
+            "itemListElement": [
+              {
+                "@type": "ListItem",
+                "position": 1,
+                "name": "Home",
+                "item": "https://asteredit.com/"
+              },
+              {
+                "@type": "ListItem",
+                "position": 2,
+                "name": "Collections",
+                "item": "https://asteredit.com/collections"
+              },
+              {
+                "@type": "ListItem",
+                "position": 3,
+                "name": "Sunfold Fluted Ceramic Bowls & Plates | Aster Edit",
+                "item": "https://asteredit.com/products/sunfold-fluted-ceramics"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "path": "/products/pale-ground-ivory-ceramics",
+      "title": "Pale Ground Ivory Ceramic Bowls, Plates & Serveware | Aster Edit",
+      "description": "Ivory ceramic cups, bowls, plates and serveware in 18 individually priced forms, with two smaller gift-only pieces.",
+      "label": "Pale Ground Ivory Ceramic Bowls, Plates & Serveware",
+      "h1": "Pale Ground",
+      "eligible": true,
+      "fullHtml": true,
+      "types": [
+        "Organization",
+        "WebSite",
+        "CollectionPage",
+        "BreadcrumbList"
+      ],
+      "schema": {
+        "@context": "https://schema.org",
+        "@graph": [
+          {
+            "@type": "Organization",
+            "@id": "https://asteredit.com/#organization",
+            "name": "Aster Edit",
+            "url": "https://asteredit.com/"
+          },
+          {
+            "@type": "WebSite",
+            "@id": "https://asteredit.com/#website",
+            "url": "https://asteredit.com/",
+            "name": "Aster Edit",
+            "inLanguage": "en-US",
+            "publisher": {
+              "@id": "https://asteredit.com/#organization"
+            }
+          },
+          {
+            "@type": "CollectionPage",
+            "@id": "https://asteredit.com/products/pale-ground-ivory-ceramics#webpage",
+            "url": "https://asteredit.com/products/pale-ground-ivory-ceramics",
+            "name": "Pale Ground Ivory Ceramic Bowls, Plates & Serveware | Aster Edit",
+            "description": "Ivory ceramic cups, bowls, plates and serveware in 18 individually priced forms, with two smaller gift-only pieces.",
+            "isPartOf": {
+              "@id": "https://asteredit.com/#website"
+            },
+            "inLanguage": "en-US"
+          },
+          {
+            "@type": "BreadcrumbList",
+            "itemListElement": [
+              {
+                "@type": "ListItem",
+                "position": 1,
+                "name": "Home",
+                "item": "https://asteredit.com/"
+              },
+              {
+                "@type": "ListItem",
+                "position": 2,
+                "name": "Collections",
+                "item": "https://asteredit.com/collections"
+              },
+              {
+                "@type": "ListItem",
+                "position": 3,
+                "name": "Pale Ground Ivory Ceramic Bowls, Plates & Serveware | Aster Edit",
+                "item": "https://asteredit.com/products/pale-ground-ivory-ceramics"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "path": "/products/citrus-note-oval-plate",
+      "title": "Citrus Note Orange-Speckled Oval Ceramic Plate | Aster Edit",
+      "description": "A shallow 8.3-inch oval plate with a dense orange-peel surface and warm speckled colour.",
+      "label": "Citrus Note Orange-Speckled Oval Ceramic Plate",
+      "h1": "Citrus Note",
+      "eligible": true,
+      "fullHtml": true,
+      "types": [
+        "Organization",
+        "WebSite",
+        "CollectionPage",
+        "BreadcrumbList"
+      ],
+      "schema": {
+        "@context": "https://schema.org",
+        "@graph": [
+          {
+            "@type": "Organization",
+            "@id": "https://asteredit.com/#organization",
+            "name": "Aster Edit",
+            "url": "https://asteredit.com/"
+          },
+          {
+            "@type": "WebSite",
+            "@id": "https://asteredit.com/#website",
+            "url": "https://asteredit.com/",
+            "name": "Aster Edit",
+            "inLanguage": "en-US",
+            "publisher": {
+              "@id": "https://asteredit.com/#organization"
+            }
+          },
+          {
+            "@type": "CollectionPage",
+            "@id": "https://asteredit.com/products/citrus-note-oval-plate#webpage",
+            "url": "https://asteredit.com/products/citrus-note-oval-plate",
+            "name": "Citrus Note Orange-Speckled Oval Ceramic Plate | Aster Edit",
+            "description": "A shallow 8.3-inch oval plate with a dense orange-peel surface and warm speckled colour.",
+            "isPartOf": {
+              "@id": "https://asteredit.com/#website"
+            },
+            "inLanguage": "en-US"
+          },
+          {
+            "@type": "BreadcrumbList",
+            "itemListElement": [
+              {
+                "@type": "ListItem",
+                "position": 1,
+                "name": "Home",
+                "item": "https://asteredit.com/"
+              },
+              {
+                "@type": "ListItem",
+                "position": 2,
+                "name": "Collections",
+                "item": "https://asteredit.com/collections"
+              },
+              {
+                "@type": "ListItem",
+                "position": 3,
+                "name": "Citrus Note Orange-Speckled Oval Ceramic Plate | Aster Edit",
+                "item": "https://asteredit.com/products/citrus-note-oval-plate"
+              }
+            ]
+          }
+        ]
+      }
+    }
+  ]
+}

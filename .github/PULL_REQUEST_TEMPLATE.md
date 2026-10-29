@@ -1,3 +1,9 @@
+## Modules
+
+- [ ] apps/storefront
+- [ ] services/commerce
+- [ ] Shared documentation/configuration
+
 ## 变更
 
 说明解决的问题及新的行为。

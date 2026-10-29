@@ -1,0 +1,16 @@
+{
+  "date": "2026-10-29",
+  "sources": [
+    {
+      "repository": "aster-edit-storefront",
+      "approvedCommit": "7217f21590f49ea4f369b66a875a26efc24a9338",
+      "approvedDate": "2026-10-28"
+    },
+    {
+      "repository": "aster-commerce",
+      "approvedCommit": "24c543c5d0d8b78ca707e83375bdd97cd0aa4eb0",
+      "approvedDate": "2026-10-28"
+    }
+  ],
+  "scope": "Previously reviewed public source exports and synthetic examples; no original private workspace data."
+}

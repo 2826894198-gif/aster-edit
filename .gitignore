@@ -1,6 +1,4 @@
-
-# Repository organization baseline
-# Dependencies and generated files
+# Dependencies and generated outputs, scoped across both modules.
 node_modules/
 .pnpm/
 .venv/
@@ -8,37 +6,36 @@ venv/
 __pycache__/
 *.py[cod]
 .pytest_cache/
-.build/
-.swiftpm/
 dist/
 build/
 coverage/
+.vite*/
 artifacts/
 .artifacts/
 backups/
 reports/
 tmp/
-.runtime/
-.secrets/
-.local/
-# Local configuration and credentials
+
+# Each module owns its own local configuration and runtime state.
 .env
 .env.*
 !.env.example
 !.env.*.example
+.secrets/
+.runtime/
+.local/
 *.pem
 *.key
 *.p12
 *.pfx
-project.private.config.json
 *.private.*
-# Runtime and real business data
 *.db
 *.sqlite*
 *.log
 *.har
 data/private/
-# OS and editors
+
+# Editors and operating systems.
 .DS_Store
 Thumbs.db
 .idea/

@@ -1,0 +1,1078 @@
+{
+  "schema_version": 1,
+  "snapshot_date": "2026-09-22",
+  "products": [
+    {
+      "catalog_key": "mood-monet-garden-green:01",
+      "series": "mood-monet-garden-green",
+      "name": "mood莫奈花园绿色7英寸碗",
+      "source_specification": "Synthetic demonstration source specification",
+      "purchase_url": "https://item.taobao.com/item.htm?id=0000000000",
+      "platform_item_id": "DEMO-NOT-A-REAL-ITEM",
+      "submitted_url_sku_id_not_verified_variant": null,
+      "dimensions": {
+        "diameterCmApprox": 18,
+        "heightCmApprox": 7,
+        "capacityMlApprox": 600
+      },
+      "source_images": [
+        "demo-product-001.svg"
+      ],
+      "source_archive": "demo/synthetic-catalog-source.json",
+      "source_archive_sha256": "0000000000000000000000000000000000000000000000000000000000000000",
+      "captured_on": "2026-01-01",
+      "evidence": "DEMO ONLY: public product labels retained; sourcing metadata is synthetic.",
+      "review_note": "Demonstration fixture; not a commercial approval or fulfillment record.",
+      "commercial": {
+        "price": null,
+        "currency": null,
+        "stock_quantity": null,
+        "approved": false
+      }
+    },
+    {
+      "catalog_key": "mood-monet-garden-green:02",
+      "series": "mood-monet-garden-green",
+      "name": "mood莫奈花园绿色8英寸平盘",
+      "source_specification": "Synthetic demonstration source specification",
+      "purchase_url": "https://item.taobao.com/item.htm?id=0000000000",
+      "platform_item_id": "DEMO-NOT-A-REAL-ITEM",
+      "submitted_url_sku_id_not_verified_variant": null,
+      "dimensions": {
+        "diameterCmApprox": 21,
+        "heightCmApprox": 3
+      },
+      "source_images": [
+        "demo-product-002.svg"
+      ],
+      "source_archive": "demo/synthetic-catalog-source.json",
+      "source_archive_sha256": "0000000000000000000000000000000000000000000000000000000000000000",
+      "captured_on": "2026-01-01",
+      "evidence": "DEMO ONLY: public product labels retained; sourcing metadata is synthetic.",
+      "review_note": "Demonstration fixture; not a commercial approval or fulfillment record.",
+      "commercial": {
+        "price": null,
+        "currency": null,
+        "stock_quantity": null,
+        "approved": false
+      }
+    },
+    {
+      "catalog_key": "mood-monet-garden-green:03",
+      "series": "mood-monet-garden-green",
+      "name": "mood莫奈花园绿色4.5英寸酱料碗",
+      "source_specification": "Synthetic demonstration source specification",
+      "purchase_url": "https://item.taobao.com/item.htm?id=0000000000",
+      "platform_item_id": "DEMO-NOT-A-REAL-ITEM",
+      "submitted_url_sku_id_not_verified_variant": null,
+      "dimensions": {
+        "diameterCmApprox": 11.5,
+        "heightCmApprox": 5.3,
+        "capacityMlApprox": 180
+      },
+      "source_images": [
+        "demo-product-003.svg"
+      ],
+      "source_archive": "demo/synthetic-catalog-source.json",
+      "source_archive_sha256": "0000000000000000000000000000000000000000000000000000000000000000",
+      "captured_on": "2026-01-01",
+      "evidence": "DEMO ONLY: public product labels retained; sourcing metadata is synthetic.",
+      "review_note": "Demonstration fixture; not a commercial approval or fulfillment record.",
+      "commercial": {
+        "price": null,
+        "currency": null,
+        "stock_quantity": null,
+        "approved": false
+      }
+    },
+    {
+      "catalog_key": "mood-mist-blue-petal:01",
+      "series": "mood-mist-blue-petal",
+      "name": "mood雾蓝色花瓣8英寸汤盘",
+      "source_specification": "Synthetic demonstration source specification",
+      "purchase_url": "https://item.taobao.com/item.htm?id=0000000000",
+      "platform_item_id": "DEMO-NOT-A-REAL-ITEM",
+      "submitted_url_sku_id_not_verified_variant": null,
+      "dimensions": {
+        "diameterCm": 20,
+        "heightCm": 5,
+        "capacityMlApprox": 800
+      },
+      "source_images": [
+        "demo-product-004.svg"
+      ],
+      "source_archive": "demo/synthetic-catalog-source.json",
+      "source_archive_sha256": "0000000000000000000000000000000000000000000000000000000000000000",
+      "captured_on": "2026-01-01",
+      "evidence": "DEMO ONLY: public product labels retained; sourcing metadata is synthetic.",
+      "review_note": "Demonstration fixture; not a commercial approval or fulfillment record.",
+      "commercial": {
+        "price": null,
+        "currency": null,
+        "stock_quantity": null,
+        "approved": false
+      }
+    },
+    {
+      "catalog_key": "mood-mist-blue-petal:02",
+      "series": "mood-mist-blue-petal",
+      "name": "mood雾蓝色花瓣6英寸碗",
+      "source_specification": "Synthetic demonstration source specification",
+      "purchase_url": "https://item.taobao.com/item.htm?id=0000000000",
+      "platform_item_id": "DEMO-NOT-A-REAL-ITEM",
+      "submitted_url_sku_id_not_verified_variant": null,
+      "dimensions": {
+        "diameterCm": 15,
+        "heightCm": 7.5,
+        "capacityMlApprox": 600
+      },
+      "source_images": [
+        "demo-product-005.svg"
+      ],
+      "source_archive": "demo/synthetic-catalog-source.json",
+      "source_archive_sha256": "0000000000000000000000000000000000000000000000000000000000000000",
+      "captured_on": "2026-01-01",
+      "evidence": "DEMO ONLY: public product labels retained; sourcing metadata is synthetic.",
+      "review_note": "Demonstration fixture; not a commercial approval or fulfillment record.",
+      "commercial": {
+        "price": null,
+        "currency": null,
+        "stock_quantity": null,
+        "approved": false
+      }
+    },
+    {
+      "catalog_key": "mood-mist-blue-petal:03",
+      "series": "mood-mist-blue-petal",
+      "name": "mood雾蓝色花瓣8.5英寸盘",
+      "source_specification": "Synthetic demonstration source specification",
+      "purchase_url": "https://item.taobao.com/item.htm?id=0000000000",
+      "platform_item_id": "DEMO-NOT-A-REAL-ITEM",
+      "submitted_url_sku_id_not_verified_variant": null,
+      "dimensions": {
+        "diameterCm": 21.5,
+        "heightCm": 2.8
+      },
+      "source_images": [
+        "demo-product-006.svg"
+      ],
+      "source_archive": "demo/synthetic-catalog-source.json",
+      "source_archive_sha256": "0000000000000000000000000000000000000000000000000000000000000000",
+      "captured_on": "2026-01-01",
+      "evidence": "DEMO ONLY: public product labels retained; sourcing metadata is synthetic.",
+      "review_note": "Demonstration fixture; not a commercial approval or fulfillment record.",
+      "commercial": {
+        "price": null,
+        "currency": null,
+        "stock_quantity": null,
+        "approved": false
+      }
+    },
+    {
+      "catalog_key": "mood-mist-blue-petal:04",
+      "series": "mood-mist-blue-petal",
+      "name": "mood雾蓝色花瓣10.3英寸超大盘",
+      "source_specification": "Synthetic demonstration source specification",
+      "purchase_url": "https://item.taobao.com/item.htm?id=0000000000",
+      "platform_item_id": "DEMO-NOT-A-REAL-ITEM",
+      "submitted_url_sku_id_not_verified_variant": null,
+      "dimensions": {
+        "diameterCm": 26.3,
+        "heightCm": 4
+      },
+      "source_images": [
+        "demo-product-007.svg"
+      ],
+      "source_archive": "demo/synthetic-catalog-source.json",
+      "source_archive_sha256": "0000000000000000000000000000000000000000000000000000000000000000",
+      "captured_on": "2026-01-01",
+      "evidence": "DEMO ONLY: public product labels retained; sourcing metadata is synthetic.",
+      "review_note": "Demonstration fixture; not a commercial approval or fulfillment record.",
+      "commercial": {
+        "price": null,
+        "currency": null,
+        "stock_quantity": null,
+        "approved": false
+      }
+    },
+    {
+      "catalog_key": "mood-ocean-blue-plates:01",
+      "series": "mood-ocean-blue-plates",
+      "name": "mood雾面海洋蓝14.5英寸超大盘",
+      "source_specification": "Synthetic demonstration source specification",
+      "purchase_url": "https://item.taobao.com/item.htm?id=0000000000",
+      "platform_item_id": "DEMO-NOT-A-REAL-ITEM",
+      "submitted_url_sku_id_not_verified_variant": null,
+      "dimensions": {
+        "lengthCm": 37,
+        "widthCm": 23.5,
+        "heightCm": 2
+      },
+      "source_images": [
+        "demo-product-008.svg"
+      ],
+      "source_archive": "demo/synthetic-catalog-source.json",
+      "source_archive_sha256": "0000000000000000000000000000000000000000000000000000000000000000",
+      "captured_on": "2026-01-01",
+      "evidence": "DEMO ONLY: public product labels retained; sourcing metadata is synthetic.",
+      "review_note": "Demonstration fixture; not a commercial approval or fulfillment record.",
+      "commercial": {
+        "price": null,
+        "currency": null,
+        "stock_quantity": null,
+        "approved": false
+      }
+    },
+    {
+      "catalog_key": "mood-ocean-blue-plates:02",
+      "series": "mood-ocean-blue-plates",
+      "name": "mood雾面海洋蓝8.5英寸小盘",
+      "source_specification": "Synthetic demonstration source specification",
+      "purchase_url": "https://item.taobao.com/item.htm?id=0000000000",
+      "platform_item_id": "DEMO-NOT-A-REAL-ITEM",
+      "submitted_url_sku_id_not_verified_variant": null,
+      "dimensions": {
+        "diameterCm": 22,
+        "heightCm": 2
+      },
+      "source_images": [
+        "demo-product-009.svg"
+      ],
+      "source_archive": "demo/synthetic-catalog-source.json",
+      "source_archive_sha256": "0000000000000000000000000000000000000000000000000000000000000000",
+      "captured_on": "2026-01-01",
+      "evidence": "DEMO ONLY: public product labels retained; sourcing metadata is synthetic.",
+      "review_note": "Demonstration fixture; not a commercial approval or fulfillment record.",
+      "commercial": {
+        "price": null,
+        "currency": null,
+        "stock_quantity": null,
+        "approved": false
+      }
+    },
+    {
+      "catalog_key": "mood-ocean-blue-plates:03",
+      "series": "mood-ocean-blue-plates",
+      "name": "mood雾面海洋蓝10.5英寸大盘",
+      "source_specification": "Synthetic demonstration source specification",
+      "purchase_url": "https://item.taobao.com/item.htm?id=0000000000",
+      "platform_item_id": "DEMO-NOT-A-REAL-ITEM",
+      "submitted_url_sku_id_not_verified_variant": null,
+      "dimensions": {
+        "diameterCm": 27,
+        "heightCm": 2.5
+      },
+      "source_images": [
+        "demo-product-010.svg"
+      ],
+      "source_archive": "demo/synthetic-catalog-source.json",
+      "source_archive_sha256": "0000000000000000000000000000000000000000000000000000000000000000",
+      "captured_on": "2026-01-01",
+      "evidence": "DEMO ONLY: public product labels retained; sourcing metadata is synthetic.",
+      "review_note": "Demonstration fixture; not a commercial approval or fulfillment record.",
+      "commercial": {
+        "price": null,
+        "currency": null,
+        "stock_quantity": null,
+        "approved": false
+      }
+    },
+    {
+      "catalog_key": "fangju-yellow-petal:01",
+      "series": "fangju-yellow-petal",
+      "name": "芳菊黄4.5寸饭碗",
+      "source_specification": "Synthetic demonstration source specification",
+      "purchase_url": "https://item.taobao.com/item.htm?id=0000000000",
+      "platform_item_id": "DEMO-NOT-A-REAL-ITEM",
+      "submitted_url_sku_id_not_verified_variant": null,
+      "dimensions": {
+        "mouthDiameterCm": 12,
+        "heightCm": 6.5,
+        "baseDiameterCm": 5.2,
+        "capacityMl": 360,
+        "weightG": 268
+      },
+      "source_images": [
+        "demo-product-011.svg"
+      ],
+      "source_archive": "demo/synthetic-catalog-source.json",
+      "source_archive_sha256": "0000000000000000000000000000000000000000000000000000000000000000",
+      "captured_on": "2026-01-01",
+      "evidence": "DEMO ONLY: public product labels retained; sourcing metadata is synthetic.",
+      "review_note": "Demonstration fixture; not a commercial approval or fulfillment record.",
+      "commercial": {
+        "price": null,
+        "currency": null,
+        "stock_quantity": null,
+        "approved": false
+      }
+    },
+    {
+      "catalog_key": "fangju-yellow-petal:02",
+      "series": "fangju-yellow-petal",
+      "name": "芳菊黄6.5寸面碗",
+      "source_specification": "Synthetic demonstration source specification",
+      "purchase_url": "https://item.taobao.com/item.htm?id=0000000000",
+      "platform_item_id": "DEMO-NOT-A-REAL-ITEM",
+      "submitted_url_sku_id_not_verified_variant": null,
+      "dimensions": {
+        "mouthDiameterCm": 16,
+        "heightCm": 6.5,
+        "baseDiameterCm": 9.5,
+        "capacityMl": 690,
+        "weightG": 540
+      },
+      "source_images": [
+        "demo-product-012.svg"
+      ],
+      "source_archive": "demo/synthetic-catalog-source.json",
+      "source_archive_sha256": "0000000000000000000000000000000000000000000000000000000000000000",
+      "captured_on": "2026-01-01",
+      "evidence": "DEMO ONLY: public product labels retained; sourcing metadata is synthetic.",
+      "review_note": "Demonstration fixture; not a commercial approval or fulfillment record.",
+      "commercial": {
+        "price": null,
+        "currency": null,
+        "stock_quantity": null,
+        "approved": false
+      }
+    },
+    {
+      "catalog_key": "fangju-yellow-petal:03",
+      "series": "fangju-yellow-petal",
+      "name": "芳菊黄7.5寸菜碗",
+      "source_specification": "Synthetic demonstration source specification",
+      "purchase_url": "https://item.taobao.com/item.htm?id=0000000000",
+      "platform_item_id": "DEMO-NOT-A-REAL-ITEM",
+      "submitted_url_sku_id_not_verified_variant": null,
+      "dimensions": {
+        "mouthDiameterCm": 20,
+        "heightCm": 6,
+        "baseDiameterCm": 9,
+        "capacityMl": 1045,
+        "weightG": 590
+      },
+      "source_images": [
+        "demo-product-013.svg"
+      ],
+      "source_archive": "demo/synthetic-catalog-source.json",
+      "source_archive_sha256": "0000000000000000000000000000000000000000000000000000000000000000",
+      "captured_on": "2026-01-01",
+      "evidence": "DEMO ONLY: public product labels retained; sourcing metadata is synthetic.",
+      "review_note": "Demonstration fixture; not a commercial approval or fulfillment record.",
+      "commercial": {
+        "price": null,
+        "currency": null,
+        "stock_quantity": null,
+        "approved": false
+      }
+    },
+    {
+      "catalog_key": "fangju-yellow-petal:04",
+      "series": "fangju-yellow-petal",
+      "name": "芳菊黄4寸花瓣味碟",
+      "source_specification": "Synthetic demonstration source specification",
+      "purchase_url": "https://item.taobao.com/item.htm?id=0000000000",
+      "platform_item_id": "DEMO-NOT-A-REAL-ITEM",
+      "submitted_url_sku_id_not_verified_variant": null,
+      "dimensions": {
+        "mouthDiameterCm": 10.5,
+        "heightCm": 2.2,
+        "baseDiameterCm": 5.3,
+        "weightG": 120
+      },
+      "source_images": [
+        "demo-product-014.svg"
+      ],
+      "source_archive": "demo/synthetic-catalog-source.json",
+      "source_archive_sha256": "0000000000000000000000000000000000000000000000000000000000000000",
+      "captured_on": "2026-01-01",
+      "evidence": "DEMO ONLY: public product labels retained; sourcing metadata is synthetic.",
+      "review_note": "Demonstration fixture; not a commercial approval or fulfillment record.",
+      "commercial": {
+        "price": null,
+        "currency": null,
+        "stock_quantity": null,
+        "approved": false
+      }
+    },
+    {
+      "catalog_key": "fangju-yellow-petal:05",
+      "series": "fangju-yellow-petal",
+      "name": "芳菊黄8寸花瓣圆盘",
+      "source_specification": "Synthetic demonstration source specification",
+      "purchase_url": "https://item.taobao.com/item.htm?id=0000000000",
+      "platform_item_id": "DEMO-NOT-A-REAL-ITEM",
+      "submitted_url_sku_id_not_verified_variant": null,
+      "dimensions": {
+        "mouthDiameterCm": 20.5,
+        "heightCm": 3,
+        "baseDiameterCm": 13,
+        "weightG": 430
+      },
+      "source_images": [
+        "demo-product-015.svg"
+      ],
+      "source_archive": "demo/synthetic-catalog-source.json",
+      "source_archive_sha256": "0000000000000000000000000000000000000000000000000000000000000000",
+      "captured_on": "2026-01-01",
+      "evidence": "DEMO ONLY: public product labels retained; sourcing metadata is synthetic.",
+      "review_note": "Demonstration fixture; not a commercial approval or fulfillment record.",
+      "commercial": {
+        "price": null,
+        "currency": null,
+        "stock_quantity": null,
+        "approved": false
+      }
+    },
+    {
+      "catalog_key": "fangju-yellow-petal:06",
+      "series": "fangju-yellow-petal",
+      "name": "芳菊黄10寸花瓣深盘",
+      "source_specification": "Synthetic demonstration source specification",
+      "purchase_url": "https://item.taobao.com/item.htm?id=0000000000",
+      "platform_item_id": "DEMO-NOT-A-REAL-ITEM",
+      "submitted_url_sku_id_not_verified_variant": null,
+      "dimensions": {
+        "mouthDiameterCm": 26.5,
+        "heightCm": 3.5,
+        "baseDiameterCm": 18,
+        "weightG": 850
+      },
+      "source_images": [
+        "demo-product-016.svg"
+      ],
+      "source_archive": "demo/synthetic-catalog-source.json",
+      "source_archive_sha256": "0000000000000000000000000000000000000000000000000000000000000000",
+      "captured_on": "2026-01-01",
+      "evidence": "DEMO ONLY: public product labels retained; sourcing metadata is synthetic.",
+      "review_note": "Demonstration fixture; not a commercial approval or fulfillment record.",
+      "commercial": {
+        "price": null,
+        "currency": null,
+        "stock_quantity": null,
+        "approved": false
+      }
+    },
+    {
+      "catalog_key": "fangju-yellow-petal:07",
+      "series": "fangju-yellow-petal",
+      "name": "芳菊黄早餐杯 430ml",
+      "source_specification": "Synthetic demonstration source specification",
+      "purchase_url": "https://item.taobao.com/item.htm?id=0000000000",
+      "platform_item_id": "DEMO-NOT-A-REAL-ITEM",
+      "submitted_url_sku_id_not_verified_variant": null,
+      "dimensions": {
+        "mouthDiameterCm": 11.5,
+        "heightCm": 7.2,
+        "baseDiameterCm": 5.3,
+        "capacityMl": 430,
+        "weightG": 375
+      },
+      "source_images": [
+        "demo-product-017.svg"
+      ],
+      "source_archive": "demo/synthetic-catalog-source.json",
+      "source_archive_sha256": "0000000000000000000000000000000000000000000000000000000000000000",
+      "captured_on": "2026-01-01",
+      "evidence": "DEMO ONLY: public product labels retained; sourcing metadata is synthetic.",
+      "review_note": "Demonstration fixture; not a commercial approval or fulfillment record.",
+      "commercial": {
+        "price": null,
+        "currency": null,
+        "stock_quantity": null,
+        "approved": false
+      }
+    },
+    {
+      "catalog_key": "suhuo-matte-ivory:01",
+      "series": "suhuo-matte-ivory",
+      "name": "素火2.5寸带柄小味碟",
+      "source_specification": "Synthetic demonstration source specification",
+      "purchase_url": "https://item.taobao.com/item.htm?id=0000000000",
+      "platform_item_id": "DEMO-NOT-A-REAL-ITEM",
+      "submitted_url_sku_id_not_verified_variant": null,
+      "dimensions": {
+        "diameterCm": 6.5,
+        "heightWithHandleCm": 3.5
+      },
+      "source_images": [
+        "demo-product-018.svg"
+      ],
+      "source_archive": "demo/synthetic-catalog-source.json",
+      "source_archive_sha256": "0000000000000000000000000000000000000000000000000000000000000000",
+      "captured_on": "2026-01-01",
+      "evidence": "DEMO ONLY: public product labels retained; sourcing metadata is synthetic.",
+      "review_note": "Demonstration fixture; not a commercial approval or fulfillment record.",
+      "commercial": {
+        "price": null,
+        "currency": null,
+        "stock_quantity": null,
+        "approved": false
+      }
+    },
+    {
+      "catalog_key": "suhuo-matte-ivory:02",
+      "series": "suhuo-matte-ivory",
+      "name": "素火哑光米白小勺",
+      "source_specification": "Synthetic demonstration source specification",
+      "purchase_url": "https://item.taobao.com/item.htm?id=0000000000",
+      "platform_item_id": "DEMO-NOT-A-REAL-ITEM",
+      "submitted_url_sku_id_not_verified_variant": null,
+      "dimensions": {
+        "lengthCm": 13,
+        "widthCm": 4.6,
+        "heightCm": 4
+      },
+      "source_images": [
+        "demo-product-019.svg"
+      ],
+      "source_archive": "demo/synthetic-catalog-source.json",
+      "source_archive_sha256": "0000000000000000000000000000000000000000000000000000000000000000",
+      "captured_on": "2026-01-01",
+      "evidence": "DEMO ONLY: public product labels retained; sourcing metadata is synthetic.",
+      "review_note": "Demonstration fixture; not a commercial approval or fulfillment record.",
+      "commercial": {
+        "price": null,
+        "currency": null,
+        "stock_quantity": null,
+        "approved": false
+      }
+    },
+    {
+      "catalog_key": "suhuo-matte-ivory:03",
+      "series": "suhuo-matte-ivory",
+      "name": "素火3.4寸米白水杯 200ml",
+      "source_specification": "Synthetic demonstration source specification",
+      "purchase_url": "https://item.taobao.com/item.htm?id=0000000000",
+      "platform_item_id": "DEMO-NOT-A-REAL-ITEM",
+      "submitted_url_sku_id_not_verified_variant": null,
+      "dimensions": {
+        "diameterCm": 8.6,
+        "heightCm": 7.3,
+        "capacityMl": 200
+      },
+      "source_images": [
+        "demo-product-020.svg"
+      ],
+      "source_archive": "demo/synthetic-catalog-source.json",
+      "source_archive_sha256": "0000000000000000000000000000000000000000000000000000000000000000",
+      "captured_on": "2026-01-01",
+      "evidence": "DEMO ONLY: public product labels retained; sourcing metadata is synthetic.",
+      "review_note": "Demonstration fixture; not a commercial approval or fulfillment record.",
+      "commercial": {
+        "price": null,
+        "currency": null,
+        "stock_quantity": null,
+        "approved": false
+      }
+    },
+    {
+      "catalog_key": "suhuo-matte-ivory:04",
+      "series": "suhuo-matte-ivory",
+      "name": "素火4.7寸哑光米白小碗",
+      "source_specification": "Synthetic demonstration source specification",
+      "purchase_url": "https://item.taobao.com/item.htm?id=0000000000",
+      "platform_item_id": "DEMO-NOT-A-REAL-ITEM",
+      "submitted_url_sku_id_not_verified_variant": null,
+      "dimensions": {
+        "diameterCm": 12,
+        "heightCm": 5.6,
+        "capacityMl": 300
+      },
+      "source_images": [
+        "demo-product-021.svg"
+      ],
+      "source_archive": "demo/synthetic-catalog-source.json",
+      "source_archive_sha256": "0000000000000000000000000000000000000000000000000000000000000000",
+      "captured_on": "2026-01-01",
+      "evidence": "DEMO ONLY: public product labels retained; sourcing metadata is synthetic.",
+      "review_note": "Demonstration fixture; not a commercial approval or fulfillment record.",
+      "commercial": {
+        "price": null,
+        "currency": null,
+        "stock_quantity": null,
+        "approved": false
+      }
+    },
+    {
+      "catalog_key": "suhuo-matte-ivory:05",
+      "series": "suhuo-matte-ivory",
+      "name": "素火4.25寸米白竹风高足碗",
+      "source_specification": "Synthetic demonstration source specification",
+      "purchase_url": "https://item.taobao.com/item.htm?id=0000000000",
+      "platform_item_id": "DEMO-NOT-A-REAL-ITEM",
+      "submitted_url_sku_id_not_verified_variant": null,
+      "dimensions": {
+        "diameterCm": 10.8,
+        "heightCm": 9.3,
+        "capacityMl": 200
+      },
+      "source_images": [
+        "demo-product-022.svg"
+      ],
+      "source_archive": "demo/synthetic-catalog-source.json",
+      "source_archive_sha256": "0000000000000000000000000000000000000000000000000000000000000000",
+      "captured_on": "2026-01-01",
+      "evidence": "DEMO ONLY: public product labels retained; sourcing metadata is synthetic.",
+      "review_note": "Demonstration fixture; not a commercial approval or fulfillment record.",
+      "commercial": {
+        "price": null,
+        "currency": null,
+        "stock_quantity": null,
+        "approved": false
+      }
+    },
+    {
+      "catalog_key": "suhuo-matte-ivory:06",
+      "series": "suhuo-matte-ivory",
+      "name": "素火8.25寸米白贵妃汤面碗",
+      "source_specification": "Synthetic demonstration source specification",
+      "purchase_url": "https://item.taobao.com/item.htm?id=0000000000",
+      "platform_item_id": "DEMO-NOT-A-REAL-ITEM",
+      "submitted_url_sku_id_not_verified_variant": null,
+      "dimensions": {
+        "diameterCm": 21,
+        "heightCm": 7,
+        "capacityMl": 1000
+      },
+      "source_images": [
+        "demo-product-023.svg"
+      ],
+      "source_archive": "demo/synthetic-catalog-source.json",
+      "source_archive_sha256": "0000000000000000000000000000000000000000000000000000000000000000",
+      "captured_on": "2026-01-01",
+      "evidence": "DEMO ONLY: public product labels retained; sourcing metadata is synthetic.",
+      "review_note": "Demonstration fixture; not a commercial approval or fulfillment record.",
+      "commercial": {
+        "price": null,
+        "currency": null,
+        "stock_quantity": null,
+        "approved": false
+      }
+    },
+    {
+      "catalog_key": "suhuo-matte-ivory:07",
+      "series": "suhuo-matte-ivory",
+      "name": "素火8寸米白平边浅圆盘",
+      "source_specification": "Synthetic demonstration source specification",
+      "purchase_url": "https://item.taobao.com/item.htm?id=0000000000",
+      "platform_item_id": "DEMO-NOT-A-REAL-ITEM",
+      "submitted_url_sku_id_not_verified_variant": null,
+      "dimensions": {
+        "diameterCm": 20.5,
+        "heightCm": 1.5
+      },
+      "source_images": [
+        "demo-product-024.svg"
+      ],
+      "source_archive": "demo/synthetic-catalog-source.json",
+      "source_archive_sha256": "0000000000000000000000000000000000000000000000000000000000000000",
+      "captured_on": "2026-01-01",
+      "evidence": "DEMO ONLY: public product labels retained; sourcing metadata is synthetic.",
+      "review_note": "Demonstration fixture; not a commercial approval or fulfillment record.",
+      "commercial": {
+        "price": null,
+        "currency": null,
+        "stock_quantity": null,
+        "approved": false
+      }
+    },
+    {
+      "catalog_key": "suhuo-matte-ivory:08",
+      "series": "suhuo-matte-ivory",
+      "name": "素火10.5寸米白平边浅圆盘",
+      "source_specification": "Synthetic demonstration source specification",
+      "purchase_url": "https://item.taobao.com/item.htm?id=0000000000",
+      "platform_item_id": "DEMO-NOT-A-REAL-ITEM",
+      "submitted_url_sku_id_not_verified_variant": null,
+      "dimensions": {
+        "diameterCm": 26.5,
+        "heightCm": 2
+      },
+      "source_images": [
+        "demo-product-025.svg"
+      ],
+      "source_archive": "demo/synthetic-catalog-source.json",
+      "source_archive_sha256": "0000000000000000000000000000000000000000000000000000000000000000",
+      "captured_on": "2026-01-01",
+      "evidence": "DEMO ONLY: public product labels retained; sourcing metadata is synthetic.",
+      "review_note": "Demonstration fixture; not a commercial approval or fulfillment record.",
+      "commercial": {
+        "price": null,
+        "currency": null,
+        "stock_quantity": null,
+        "approved": false
+      }
+    },
+    {
+      "catalog_key": "suhuo-matte-ivory:09",
+      "series": "suhuo-matte-ivory",
+      "name": "素火9.25寸折边米白椭圆浅盘",
+      "source_specification": "Synthetic demonstration source specification",
+      "purchase_url": "https://item.taobao.com/item.htm?id=0000000000",
+      "platform_item_id": "DEMO-NOT-A-REAL-ITEM",
+      "submitted_url_sku_id_not_verified_variant": null,
+      "dimensions": {
+        "lengthCm": 23.5,
+        "widthCm": 19,
+        "heightCm": 2.5
+      },
+      "source_images": [
+        "demo-product-026.svg"
+      ],
+      "source_archive": "demo/synthetic-catalog-source.json",
+      "source_archive_sha256": "0000000000000000000000000000000000000000000000000000000000000000",
+      "captured_on": "2026-01-01",
+      "evidence": "DEMO ONLY: public product labels retained; sourcing metadata is synthetic.",
+      "review_note": "Demonstration fixture; not a commercial approval or fulfillment record.",
+      "commercial": {
+        "price": null,
+        "currency": null,
+        "stock_quantity": null,
+        "approved": false
+      }
+    },
+    {
+      "catalog_key": "suhuo-matte-ivory:10",
+      "series": "suhuo-matte-ivory",
+      "name": "素火9.5寸折边米白椭圆深盘",
+      "source_specification": "Synthetic demonstration source specification",
+      "purchase_url": "https://item.taobao.com/item.htm?id=0000000000",
+      "platform_item_id": "DEMO-NOT-A-REAL-ITEM",
+      "submitted_url_sku_id_not_verified_variant": null,
+      "dimensions": {
+        "lengthCm": 24.5,
+        "widthCm": 20,
+        "heightCm": 4.3
+      },
+      "source_images": [
+        "demo-product-027.svg"
+      ],
+      "source_archive": "demo/synthetic-catalog-source.json",
+      "source_archive_sha256": "0000000000000000000000000000000000000000000000000000000000000000",
+      "captured_on": "2026-01-01",
+      "evidence": "DEMO ONLY: public product labels retained; sourcing metadata is synthetic.",
+      "review_note": "Demonstration fixture; not a commercial approval or fulfillment record.",
+      "commercial": {
+        "price": null,
+        "currency": null,
+        "stock_quantity": null,
+        "approved": false
+      }
+    },
+    {
+      "catalog_key": "suhuo-matte-ivory:11",
+      "series": "suhuo-matte-ivory",
+      "name": "素火11.5寸折边米白椭圆鱼盘",
+      "source_specification": "Synthetic demonstration source specification",
+      "purchase_url": "https://item.taobao.com/item.htm?id=0000000000",
+      "platform_item_id": "DEMO-NOT-A-REAL-ITEM",
+      "submitted_url_sku_id_not_verified_variant": null,
+      "dimensions": {
+        "lengthCm": 30,
+        "widthCm": 20,
+        "heightCm": 3.5
+      },
+      "source_images": [
+        "demo-product-028.svg"
+      ],
+      "source_archive": "demo/synthetic-catalog-source.json",
+      "source_archive_sha256": "0000000000000000000000000000000000000000000000000000000000000000",
+      "captured_on": "2026-01-01",
+      "evidence": "DEMO ONLY: public product labels retained; sourcing metadata is synthetic.",
+      "review_note": "Demonstration fixture; not a commercial approval or fulfillment record.",
+      "commercial": {
+        "price": null,
+        "currency": null,
+        "stock_quantity": null,
+        "approved": false
+      }
+    },
+    {
+      "catalog_key": "suhuo-matte-ivory:12",
+      "series": "suhuo-matte-ivory",
+      "name": "素火15寸折边米白椭圆大鱼盘",
+      "source_specification": "Synthetic demonstration source specification",
+      "purchase_url": "https://item.taobao.com/item.htm?id=0000000000",
+      "platform_item_id": "DEMO-NOT-A-REAL-ITEM",
+      "submitted_url_sku_id_not_verified_variant": null,
+      "dimensions": {
+        "lengthCm": 38.5,
+        "widthCm": 20,
+        "heightCm": 4
+      },
+      "source_images": [
+        "demo-product-029.svg"
+      ],
+      "source_archive": "demo/synthetic-catalog-source.json",
+      "source_archive_sha256": "0000000000000000000000000000000000000000000000000000000000000000",
+      "captured_on": "2026-01-01",
+      "evidence": "DEMO ONLY: public product labels retained; sourcing metadata is synthetic.",
+      "review_note": "Demonstration fixture; not a commercial approval or fulfillment record.",
+      "commercial": {
+        "price": null,
+        "currency": null,
+        "stock_quantity": null,
+        "approved": false
+      }
+    },
+    {
+      "catalog_key": "suhuo-matte-ivory:13",
+      "series": "suhuo-matte-ivory",
+      "name": "素火5.5寸米白八角碟",
+      "source_specification": "Synthetic demonstration source specification",
+      "purchase_url": "https://item.taobao.com/item.htm?id=0000000000",
+      "platform_item_id": "DEMO-NOT-A-REAL-ITEM",
+      "submitted_url_sku_id_not_verified_variant": null,
+      "dimensions": {
+        "diameterCm": 14,
+        "heightCm": 4,
+        "capacityMl": 200
+      },
+      "source_images": [
+        "demo-product-030.svg"
+      ],
+      "source_archive": "demo/synthetic-catalog-source.json",
+      "source_archive_sha256": "0000000000000000000000000000000000000000000000000000000000000000",
+      "captured_on": "2026-01-01",
+      "evidence": "DEMO ONLY: public product labels retained; sourcing metadata is synthetic.",
+      "review_note": "Demonstration fixture; not a commercial approval or fulfillment record.",
+      "commercial": {
+        "price": null,
+        "currency": null,
+        "stock_quantity": null,
+        "approved": false
+      }
+    },
+    {
+      "catalog_key": "suhuo-matte-ivory:14",
+      "series": "suhuo-matte-ivory",
+      "name": "素火7.8寸米白八角碗",
+      "source_specification": "Synthetic demonstration source specification",
+      "purchase_url": "https://item.taobao.com/item.htm?id=0000000000",
+      "platform_item_id": "DEMO-NOT-A-REAL-ITEM",
+      "submitted_url_sku_id_not_verified_variant": null,
+      "dimensions": {
+        "diameterCm": 20,
+        "heightCm": 6,
+        "capacityMl": 700
+      },
+      "source_images": [
+        "demo-product-031.svg"
+      ],
+      "source_archive": "demo/synthetic-catalog-source.json",
+      "source_archive_sha256": "0000000000000000000000000000000000000000000000000000000000000000",
+      "captured_on": "2026-01-01",
+      "evidence": "DEMO ONLY: public product labels retained; sourcing metadata is synthetic.",
+      "review_note": "Demonstration fixture; not a commercial approval or fulfillment record.",
+      "commercial": {
+        "price": null,
+        "currency": null,
+        "stock_quantity": null,
+        "approved": false
+      }
+    },
+    {
+      "catalog_key": "suhuo-matte-ivory:15",
+      "series": "suhuo-matte-ivory",
+      "name": "素火小号米白螺纹帽子盘 8寸",
+      "source_specification": "Synthetic demonstration source specification",
+      "purchase_url": "https://item.taobao.com/item.htm?id=0000000000",
+      "platform_item_id": "DEMO-NOT-A-REAL-ITEM",
+      "submitted_url_sku_id_not_verified_variant": null,
+      "dimensions": {
+        "lengthCm": 21,
+        "widthCm": 17.5,
+        "heightCm": 6.5
+      },
+      "source_images": [
+        "demo-product-032.svg"
+      ],
+      "source_archive": "demo/synthetic-catalog-source.json",
+      "source_archive_sha256": "0000000000000000000000000000000000000000000000000000000000000000",
+      "captured_on": "2026-01-01",
+      "evidence": "DEMO ONLY: public product labels retained; sourcing metadata is synthetic.",
+      "review_note": "Demonstration fixture; not a commercial approval or fulfillment record.",
+      "commercial": {
+        "price": null,
+        "currency": null,
+        "stock_quantity": null,
+        "approved": false
+      }
+    },
+    {
+      "catalog_key": "suhuo-matte-ivory:16",
+      "series": "suhuo-matte-ivory",
+      "name": "素火大号米白螺纹帽子盘 9.5寸",
+      "source_specification": "Synthetic demonstration source specification",
+      "purchase_url": "https://item.taobao.com/item.htm?id=0000000000",
+      "platform_item_id": "DEMO-NOT-A-REAL-ITEM",
+      "submitted_url_sku_id_not_verified_variant": null,
+      "dimensions": {
+        "lengthCm": 24.5,
+        "widthCm": 21,
+        "heightCm": 7.5
+      },
+      "source_images": [
+        "demo-product-033.svg"
+      ],
+      "source_archive": "demo/synthetic-catalog-source.json",
+      "source_archive_sha256": "0000000000000000000000000000000000000000000000000000000000000000",
+      "captured_on": "2026-01-01",
+      "evidence": "DEMO ONLY: public product labels retained; sourcing metadata is synthetic.",
+      "review_note": "Demonstration fixture; not a commercial approval or fulfillment record.",
+      "commercial": {
+        "price": null,
+        "currency": null,
+        "stock_quantity": null,
+        "approved": false
+      }
+    },
+    {
+      "catalog_key": "suhuo-matte-ivory:17",
+      "series": "suhuo-matte-ivory",
+      "name": "素火小号米白橄榄碗 8.6寸",
+      "source_specification": "Synthetic demonstration source specification",
+      "purchase_url": "https://item.taobao.com/item.htm?id=0000000000",
+      "platform_item_id": "DEMO-NOT-A-REAL-ITEM",
+      "submitted_url_sku_id_not_verified_variant": null,
+      "dimensions": {
+        "lengthCm": 22,
+        "widthCm": 15,
+        "heightCm": 5.5,
+        "capacityMl": 550
+      },
+      "source_images": [
+        "demo-product-034.svg"
+      ],
+      "source_archive": "demo/synthetic-catalog-source.json",
+      "source_archive_sha256": "0000000000000000000000000000000000000000000000000000000000000000",
+      "captured_on": "2026-01-01",
+      "evidence": "DEMO ONLY: public product labels retained; sourcing metadata is synthetic.",
+      "review_note": "Demonstration fixture; not a commercial approval or fulfillment record.",
+      "commercial": {
+        "price": null,
+        "currency": null,
+        "stock_quantity": null,
+        "approved": false
+      }
+    },
+    {
+      "catalog_key": "suhuo-matte-ivory:18",
+      "series": "suhuo-matte-ivory",
+      "name": "素火大号米白橄榄碗 9.5寸",
+      "source_specification": "Synthetic demonstration source specification",
+      "purchase_url": "https://item.taobao.com/item.htm?id=0000000000",
+      "platform_item_id": "DEMO-NOT-A-REAL-ITEM",
+      "submitted_url_sku_id_not_verified_variant": null,
+      "dimensions": {
+        "lengthCm": 24,
+        "widthCm": 16.8,
+        "heightCm": 6.5,
+        "capacityMl": 800
+      },
+      "source_images": [
+        "demo-product-035.svg"
+      ],
+      "source_archive": "demo/synthetic-catalog-source.json",
+      "source_archive_sha256": "0000000000000000000000000000000000000000000000000000000000000000",
+      "captured_on": "2026-01-01",
+      "evidence": "DEMO ONLY: public product labels retained; sourcing metadata is synthetic.",
+      "review_note": "Demonstration fixture; not a commercial approval or fulfillment record.",
+      "commercial": {
+        "price": null,
+        "currency": null,
+        "stock_quantity": null,
+        "approved": false
+      }
+    },
+    {
+      "catalog_key": "suhuo-matte-ivory:19",
+      "series": "suhuo-matte-ivory",
+      "name": "素火7.6寸米白双耳螺纹汤碗",
+      "source_specification": "Synthetic demonstration source specification",
+      "purchase_url": "https://item.taobao.com/item.htm?id=0000000000",
+      "platform_item_id": "DEMO-NOT-A-REAL-ITEM",
+      "submitted_url_sku_id_not_verified_variant": null,
+      "dimensions": {
+        "widthIncludingHandlesCm": 23,
+        "mouthDiameterCm": 19.5,
+        "heightCm": 8,
+        "capacityMl": 1200
+      },
+      "source_images": [
+        "demo-product-036.svg"
+      ],
+      "source_archive": "demo/synthetic-catalog-source.json",
+      "source_archive_sha256": "0000000000000000000000000000000000000000000000000000000000000000",
+      "captured_on": "2026-01-01",
+      "evidence": "DEMO ONLY: public product labels retained; sourcing metadata is synthetic.",
+      "review_note": "Demonstration fixture; not a commercial approval or fulfillment record.",
+      "commercial": {
+        "price": null,
+        "currency": null,
+        "stock_quantity": null,
+        "approved": false
+      }
+    },
+    {
+      "catalog_key": "suhuo-matte-ivory:20",
+      "series": "suhuo-matte-ivory",
+      "name": "素火9.8寸米白元宝碗",
+      "source_specification": "Synthetic demonstration source specification",
+      "purchase_url": "https://item.taobao.com/item.htm?id=0000000000",
+      "platform_item_id": "DEMO-NOT-A-REAL-ITEM",
+      "submitted_url_sku_id_not_verified_variant": null,
+      "dimensions": {
+        "lengthCm": 25,
+        "widthCm": 20,
+        "heightCm": 7,
+        "capacityMl": 900
+      },
+      "source_images": [
+        "demo-product-037.svg"
+      ],
+      "source_archive": "demo/synthetic-catalog-source.json",
+      "source_archive_sha256": "0000000000000000000000000000000000000000000000000000000000000000",
+      "captured_on": "2026-01-01",
+      "evidence": "DEMO ONLY: public product labels retained; sourcing metadata is synthetic.",
+      "review_note": "Demonstration fixture; not a commercial approval or fulfillment record.",
+      "commercial": {
+        "price": null,
+        "currency": null,
+        "stock_quantity": null,
+        "approved": false
+      }
+    },
+    {
+      "catalog_key": "orange-peel-oval-plate:01",
+      "series": "orange-peel-oval-plate",
+      "name": "小吕变高橘子皮8.3英寸椭圆盘",
+      "source_specification": "Synthetic demonstration source specification",
+      "purchase_url": "https://item.taobao.com/item.htm?id=0000000000",
+      "platform_item_id": "DEMO-NOT-A-REAL-ITEM",
+      "submitted_url_sku_id_not_verified_variant": null,
+      "dimensions": {
+        "lengthCm": 21,
+        "widthCm": 16.6,
+        "heightCm": 2.5,
+        "weightGApprox": 335
+      },
+      "source_images": [
+        "demo-product-038.svg"
+      ],
+      "source_archive": "demo/synthetic-catalog-source.json",
+      "source_archive_sha256": "0000000000000000000000000000000000000000000000000000000000000000",
+      "captured_on": "2026-01-01",
+      "evidence": "DEMO ONLY: public product labels retained; sourcing metadata is synthetic.",
+      "review_note": "Demonstration fixture; not a commercial approval or fulfillment record.",
+      "commercial": {
+        "price": null,
+        "currency": null,
+        "stock_quantity": null,
+        "approved": false
+      }
+    }
+  ]
+}

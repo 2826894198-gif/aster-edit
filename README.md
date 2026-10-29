@@ -1,94 +1,63 @@
-# Aster Edit · 生活方式电商品牌
+# Aster Edit · 品牌体验与独立交易服务
 
-**让一个商品系列，拥有从品牌故事到完整购买页的英文电商体验。**
+**从品牌内容、系列故事与商品选择，连接到独立运行的账户、订单和客户服务。**
 
-以商品事实和真实素材为基础，把系列故事、完整商品页、响应式图片与购买入口组织成协调的英文电商体验，并保留可追溯的发布与回退证据。
+这个仓库把 Aster Edit 的英文品牌商城与 WooCommerce 交易服务放在同一个项目入口，方便理解一件商品从展示、选购到订单访问的完整路径。代码按运行职责分开：前端负责内容与购买体验；交易服务负责服务端校验、账户、订单和官方支付集成。
 
-> 当前阶段：基于已发布版本整理的公开演示源码；交易环境使用示例配置。
+> 当前阶段：经整理的公开源码与合成数据演示。合仓不等于统一部署，也不代表真实商户、付款、退款、邮件或对账已完成验收。
 
 ## 项目亮点
 
-- 系列、搜索、Shop 与商品详情旅程
-- Prism 十二星座选择、比较联动与上下文购买条
-- Vertex 八个稳定 SKU、购物袋与直接购买映射
-- 真实照片与 AI 展示图明确区分
-- 响应式图片、静态预渲染与商品 SEO
+- 系列、Shop、搜索与完整商品页形成连贯的英文购买旅程。
+- Prism 十二星座选择、Vertex 八个 SKU 与购物袋映射保持在前端模块。
+- 独立 WooCommerce 服务承接账户、购物袋交接、同订单恢复、订单访问与评价审核。
+- 商品内容、公开展示素材、AI 展示图和真实交易证据分别说明，不用合成指标宣称经营效果。
 
-## 技术实现
+## 目录与技术
 
-React 19 · Vite · CSS 响应式布局 · WordPress/WooCommerce 独立商务服务 · 静态预渲染 · Node.js 测试
+| 模块 | 职责 | 技术与独立配置 |
+| --- | --- | --- |
+| [apps/storefront](apps/storefront/README.md) | 品牌、商品内容、选择与购买入口 | React、Vite、响应式图片、静态预渲染；独立 npm 依赖与示例环境配置 |
+| [services/commerce](services/commerce/README.md) | 账户、订单、访问控制、官方支付与客户服务 | PHP、WordPress/WooCommerce、MariaDB、Docker Compose、Mailpit；独立本地密钥与数据卷 |
+| [docs](docs/ARCHITECTURE.md) | 架构、启动、来源、验证与限制 | 不保存部署凭据或真实业务记录 |
 
-- src/main.jsx
-- src/aster/HomePage.jsx
-- src/aster/ShopPage.jsx
-- src/aster/CrystalPage.jsx
-- src/aster/VertexCrystalPage.jsx
-- src/aster/commerce.js
+两套模块共享版本管理，不共享运行数据库、密钥、构建目录或部署生命周期。前端默认不连接真实商户后端；官方 WooCommerce PayPal Payments 保持支付生命周期的所有权。
 
 ## 快速开始
 
-Node.js 22+；仓库保留已发布图片 manifest 及其必要公开衍生素材。
+前端需要 Node.js 22+。在本仓库根目录运行：
 
 ```sh
-npm ci
-npm run dev
-# Run in another terminal when needed:
-npm run build
-npm run test:sites
+npm --prefix apps/storefront ci
+npm --prefix apps/storefront run dev
 ```
 
-独立预览默认不配置商户后端。images:prepare 是维护命令；原始私有素材不在公开仓库，不要在普通启动时重建 manifest。
-
-
-### SEO metadata mode
-
-The default build is a `noindex` preview. Production SEO assertions require a production **metadata mode** build; this does not configure or enable a live merchant backend:
+普通构建默认是 `noindex` 预览：
 
 ```sh
-PUBLICATION_MODE=production VITE_PUBLICATION_MODE=production npm run build
-node --test tests/crystal-preview.test.mjs tests/aster-prerender.test.mjs
+npm --prefix apps/storefront run build
 ```
 
-The export follow-up passed 8 of these 9 checks. The remaining historical cup chapter-anchor assertion is documented in `docs/REPOSITORY_STATUS.md`; no UI or assertion was removed to change that result.
+交易服务需要 Node.js 和 Docker Desktop。只在准备好独立本地合成数据环境后运行：
 
-## 目录导航
-
-```text
-docs/
-index.html
-package-lock.json
-package.json
-production-build.config.mjs
-public/
-scripts/
-src/
-tests/
-vite.config.mjs
-worker/
+```sh
+make commerce-bootstrap
+make commerce-verify
+make commerce-stop
 ```
 
-## 交付状态与证据
+这些命令从 `services/commerce/` 启动原有本地流程，生成该模块自己的随机密钥，使用本机回环端口和 Mailpit。不要向演示环境导入真实商户凭据、客户或订单。完整命令、端口和 metadata 模式见 [启动说明](docs/SETUP.md)。
 
-- docs/releases/shop-mobile-balance-release-20261027.md
-- docs/releases/prism-complete-pdp-release-20261023.md
-- docs/releases/vertex-purchase-release-20261022.md
-- docs/releases/integrated-features-release-20261016.md
-- docs/history/IMPLEMENTATION_HISTORY.md
+## 验证与已知边界
 
-- 本次整理已按保留 manifest 补入公开衍生图片；未携带私有原始素材。
-- 不从 dirty main 或旧 4194 预览发布。
-- Prism 十二张杯底可视化为 AI 生成，实拍与生成展示必须区分。
-- Vertex 尺寸、容量与供货信息未知，不沿用 Prism 参数。
-- 购买入口/结账准备验证不等于真实付款、capture、邮件送达或搜索收录。
-- 没有测量转化、收入或排名提升，不能作为营销成效数字。
+- 批准的前端快照记录了完整构建通过、28 条预渲染路由，以及 240 条响应式记录对应的 795 个公开衍生变体。
+- production **metadata** 模式的定向检查为 **8 通过 / 1 未通过**；保留的未通过项是杯页章节锚点断言。未为通过检查而修改页面或删除断言。
+- 本次合仓进行结构、路径和静态入口核对，不重新启动 Docker、执行商户操作或重跑上述重型验证。
+- 购买入口和合成订单演示不代表真实 PayPal 付款、capture、webhook、退款、外部邮件或到账对账已通过。
+- 公共包保留选定的公开商品展示素材和衍生图，不包含私有原图、采购档案或真实业务截图。Prism 的 AI 展示图应继续保留相应标识，不能当作实拍证据。
 
-本次整理的核验结果见 [仓库状态](docs/REPOSITORY_STATUS.md)，项目介绍口径见 [展示说明](docs/SHOWCASE.md)。
+详细结果见 [验证记录](docs/VALIDATION.md) 与 [已知问题](docs/KNOWN_ISSUES.md)。
 
-## 协作与使用
+## 协作与来源
 
-- 安装依赖前核对项目所需运行时，配置文件使用示例值；凭据和真实业务数据不进入 Git。
-- 提交与反馈请见 [CONTRIBUTING.md](CONTRIBUTING.md)；敏感问题处理见 [SECURITY.md](SECURITY.md)。
-- 许可证与第三方资源见 [RIGHTS.md](RIGHTS.md)。公开访问不等于获得所有素材的再分发许可。
-
-
-构建和测试条件、尚未通过的杯页锚点检查见 [已知问题](docs/KNOWN_ISSUES.md)。
+模块各自保留原说明、权利文件和已知问题；合仓来源见 [来源与历史](docs/SOURCES.md)。贡献规则见 [CONTRIBUTING.md](CONTRIBUTING.md)，敏感问题见 [SECURITY.md](SECURITY.md)，代码与素材权利见 [RIGHTS.md](RIGHTS.md)。公开访问不新增开源或素材再分发授权。

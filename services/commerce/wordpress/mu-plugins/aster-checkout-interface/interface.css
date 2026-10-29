@@ -1,0 +1,184 @@
+/* Composition ported from JWK CheckoutPage / styles.css, 2026-10-15.
+   Aster's white canvas, Cormorant/Inter type and dark actions are intentional. */
+.aster-jwk-checkout .aster-native-content {
+  width: min(1520px, calc(100% - clamp(32px, 7vw, 160px)));
+  max-width: none;
+  padding: 28px 0 72px;
+}
+.aster-jwk-checkout .aster-checkout-intro {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) minmax(260px, .62fr);
+  align-items: end;
+  gap: 32px;
+  padding-bottom: 28px;
+  border-bottom: 1px solid var(--aster-line);
+}
+.aster-jwk-checkout .aster-checkout-intro .aster-eyebrow,
+.aster-jwk-checkout .aster-order-card-heading .aster-eyebrow,
+.aster-jwk-checkout .aster-payment-heading .aster-eyebrow { margin: 0 0 8px; font-size: 10px; letter-spacing: .12em; }
+.aster-jwk-checkout .aster-checkout-intro h1 { margin: 0; font: 500 clamp(38px, 4.3vw, 64px)/1.04 var(--aster-serif); letter-spacing: -.025em; }
+.aster-jwk-checkout .aster-checkout-intro > p { max-width: 430px; margin: 0 0 2px auto; color: var(--aster-muted); font-size: 14px; line-height: 1.6; }
+.aster-jwk-checkout .aster-checkout-tools { margin: 20px 0 26px; }
+.aster-jwk-checkout .aster-checkout-tools:empty { display: none; }
+.aster-jwk-checkout .woocommerce-form-coupon-toggle .wc-block-components-notice-banner,
+.aster-jwk-checkout .woocommerce-form-coupon-toggle .woocommerce-info { margin: 0; }
+.aster-jwk-checkout .woocommerce form.checkout_coupon { max-width: 700px; margin-bottom: 0; padding: 20px; border-color: var(--aster-line); border-radius: 5px; }
+.aster-jwk-checkout .aster-interface-review-note { margin: 16px 0; font-size: 12px; color: var(--aster-muted); }
+.aster-jwk-checkout form.checkout {
+  display: grid;
+  grid-template-columns: minmax(0, 1.1fr) minmax(380px, .9fr);
+  gap: clamp(32px, 4.2vw, 72px);
+  align-items: start;
+  margin: 0;
+}
+.aster-jwk-checkout form.checkout > #customer_details { grid-column: 1; grid-row: auto; min-width: 0; width: 100%; }
+.aster-jwk-checkout #customer_details > .col-1,
+.aster-jwk-checkout #customer_details > .col-2 { width: 100%; float: none; }
+.aster-jwk-checkout .aster-delivery-notice { display: flex; align-items: flex-start; gap: 12px; margin-bottom: 20px; padding: 14px 16px; border: 1px solid var(--aster-line); border-radius: 7px; }
+.aster-jwk-checkout .aster-delivery-notice > img { flex: 0 0 20px; margin-top: 1px; }
+.aster-jwk-checkout .aster-delivery-notice h2 { margin: 0 0 4px; font: 600 12px/1.5 var(--aster-sans); letter-spacing: 0; }
+.aster-jwk-checkout .aster-delivery-notice p { margin: 0; color: var(--aster-muted); font: 400 12px/1.5 var(--aster-sans); }
+.aster-jwk-checkout .woocommerce-billing-fields__field-wrapper,
+.aster-jwk-checkout .woocommerce-shipping-fields__field-wrapper { display: grid; grid-template-columns: repeat(6, minmax(0, 1fr)); gap: 16px; }
+.aster-jwk-checkout .woocommerce form .form-row { min-width: 0; width: 100%; float: none; padding: 0; margin: 0; }
+.aster-jwk-checkout .woocommerce-billing-fields__field-wrapper > .form-row,
+.aster-jwk-checkout .woocommerce-shipping-fields__field-wrapper > .form-row { grid-column: 1 / -1; }
+.aster-jwk-checkout :is(#billing_first_name_field, #billing_last_name_field, #billing_country_field, #billing_phone_field,
+  #shipping_first_name_field, #shipping_last_name_field, #shipping_country_field, #shipping_phone_field) { grid-column: span 3; }
+.aster-jwk-checkout :is(#billing_city_field, #billing_state_field, #billing_postcode_field,
+  #shipping_city_field, #shipping_state_field, #shipping_postcode_field) { grid-column: span 2; }
+.aster-jwk-checkout .woocommerce form .form-row label { margin-bottom: 8px; font: 600 12px/1.4 var(--aster-sans); }
+.aster-jwk-checkout .woocommerce form .form-row label .optional { color: var(--aster-muted); font-size: 11px; font-weight: 400; }
+.aster-jwk-checkout .woocommerce form .form-row input.input-text,
+.aster-jwk-checkout .woocommerce form .form-row select,
+.aster-jwk-checkout .woocommerce form .form-row textarea { min-width: 0; min-height: 50px; width: 100%; padding: 12px 14px; border: 1px solid var(--aster-line); border-radius: 5px; color: var(--aster-ink); background: #fff; font: 400 14px/1.6 var(--aster-sans); }
+.aster-jwk-checkout .woocommerce form .form-row textarea { min-height: 104px; resize: vertical; }
+.aster-jwk-checkout .woocommerce form .form-row input.input-text:focus,
+.aster-jwk-checkout .woocommerce form .form-row textarea:focus { outline: 2px solid var(--aster-ink); outline-offset: 2px; }
+.aster-jwk-checkout .select2-container .select2-selection--single { min-height: 50px; height: 50px; padding: 0; border: 1px solid var(--aster-line); border-radius: 5px; }
+.aster-jwk-checkout .woocommerce form .form-row .select2-container .select2-selection--single .select2-selection__rendered { display: flex; align-items: center; height: 48px; padding: 0 36px 0 14px; font: 400 14px/1.5 var(--aster-sans); color: var(--aster-ink); }
+.aster-jwk-checkout .select2-container .select2-selection__arrow { height: 48px; }
+.aster-jwk-checkout .woocommerce-account-fields { margin-top: 20px; }
+.aster-jwk-checkout .woocommerce-account-fields .create-account:not(.form-row) { display: grid; gap: 16px; margin-top: 16px; }
+.aster-jwk-checkout .woocommerce-shipping-fields { margin-top: 16px; }
+.aster-jwk-checkout #ship-to-different-address { margin: 0 0 20px; font: 400 13px/1.5 var(--aster-sans); }
+.aster-jwk-checkout #ship-to-different-address label { display: inline-flex; align-items: center; gap: 8px; }
+.aster-jwk-checkout .woocommerce-additional-fields { padding-top: 20px; border-top: 1px solid var(--aster-line); }
+.aster-jwk-checkout .woocommerce-additional-fields h3 { margin: 0 0 16px; font: 500 24px/1.2 var(--aster-serif); }
+.aster-jwk-checkout .aster-checkout-side {
+  grid-column: 2;
+  position: sticky;
+  top: 24px;
+  min-width: 0;
+  width: 100%;
+  padding: clamp(24px, 3vw, 40px);
+  border: 1px solid var(--aster-line);
+  border-radius: 8px;
+  box-shadow: 0 20px 45px rgb(37 34 30 / 5%);
+  background: #fff;
+}
+.aster-jwk-checkout .aster-order-card-heading { display: flex; align-items: flex-start; justify-content: space-between; gap: 14px; margin-bottom: 24px; }
+.aster-jwk-checkout .aster-order-card-heading #order_review_heading { margin: 0; font: 500 clamp(28px, 2.4vw, 36px)/1.06 var(--aster-serif); letter-spacing: -.02em; }
+.aster-jwk-checkout .aster-currency-chip { flex: 0 0 auto; padding: 4px 8px; border: 1px solid var(--aster-line); border-radius: 999px; font: 600 10px/1.5 var(--aster-sans); letter-spacing: .06em; }
+.aster-jwk-checkout .woocommerce table.shop_table { table-layout: auto; margin: 0; border: 0; border-collapse: collapse; font: 400 13px/1.5 var(--aster-sans); }
+.aster-jwk-checkout .woocommerce table.shop_table th,
+.aster-jwk-checkout .woocommerce table.shop_table td { padding: 8px 0; border: 0; font-weight: 400; vertical-align: middle; }
+.aster-jwk-checkout .woocommerce table.shop_table tbody td { padding: 0 0 24px; }
+.aster-jwk-checkout .woocommerce table.shop_table .product-total { text-align: right; padding-left: 12px; vertical-align: bottom; font-weight: 600; }
+.aster-jwk-checkout .aster-order-product { display: grid; grid-template-columns: 94px minmax(0, 1fr) auto; align-items: center; gap: 14px; }
+.aster-jwk-checkout .aster-order-product-total { align-self: end; font-weight: 600; white-space: nowrap; }
+.aster-jwk-checkout .aster-order-product > img { display: block; width: 94px; height: 118px; object-fit: contain; border-radius: 5px; }
+.aster-jwk-checkout .aster-order-product-copy { min-width: 0; display: grid; gap: 6px; }
+.aster-jwk-checkout .aster-order-product-copy > strong { font: 600 14px/1.45 var(--aster-sans); overflow-wrap: anywhere; }
+.aster-jwk-checkout .aster-order-product-copy .product-quantity { margin: 0; color: var(--aster-muted); font: 400 11px/1.4 var(--aster-sans); }
+.aster-jwk-checkout .aster-order-product-copy dl.variation { margin: 0; color: var(--aster-muted); font-size: 11px; }
+.aster-jwk-checkout .woocommerce table.shop_table tfoot th { color: var(--aster-muted); text-align: left; }
+.aster-jwk-checkout .woocommerce table.shop_table tfoot td { text-align: right; font-weight: 500; }
+.aster-jwk-checkout .woocommerce table.shop_table tfoot ul#shipping_method { margin: 0; }
+.aster-jwk-checkout .woocommerce table.shop_table tfoot .order-total th,
+.aster-jwk-checkout .woocommerce table.shop_table tfoot .order-total td { padding: 20px 0 0; border-top: 1px solid var(--aster-line); color: var(--aster-ink); }
+.aster-jwk-checkout .woocommerce table.shop_table tfoot .order-total th { font-weight: 600; }
+.aster-jwk-checkout .order-total th > small { color: var(--aster-muted); font-size: 10px; font-weight: 400; }
+.aster-jwk-checkout .order-total td strong { font: 500 26px/1.2 var(--aster-sans); letter-spacing: -.025em; }
+.aster-jwk-checkout .aster-checkout-shipping-note { margin: 24px 0 26px; color: var(--aster-muted); font: 400 12px/1.65 var(--aster-sans); }
+.aster-jwk-checkout .aster-checkout-shipping-note strong { color: var(--aster-ink); font-weight: 600; }
+.aster-jwk-checkout .aster-payment-heading { display: flex; align-items: flex-start; justify-content: space-between; gap: 14px; margin-bottom: 16px; }
+.aster-jwk-checkout .aster-payment-heading .aster-eyebrow { margin-bottom: 6px; }
+.aster-jwk-checkout .aster-payment-heading h3 { margin: 0; font: 600 16px/1.35 var(--aster-sans); }
+.aster-jwk-checkout #payment ul.payment_methods { gap: 12px; margin: 0 0 20px; }
+.aster-jwk-checkout #payment ul.payment_methods::before,
+.aster-jwk-checkout #payment ul.payment_methods::after,
+.aster-jwk-checkout #payment ul.payment_methods > li.wc_payment_method::before,
+.aster-jwk-checkout #payment ul.payment_methods > li.wc_payment_method::after { content: none; display: none; }
+.aster-jwk-checkout #payment ul.payment_methods li > label { justify-content: flex-start; gap: 12px; padding: 12px; min-height: 72px; border-radius: 7px; }
+.aster-jwk-checkout #payment ul.payment_methods li > input:checked + label { background: #f8f8f6; border-color: var(--aster-ink); box-shadow: inset 0 0 0 1px rgb(37 34 30 / 20%); }
+.aster-jwk-checkout #payment ul.payment_methods li > label .aster-method-icon { max-width: none; width: 26px; height: 26px; flex: 0 0 26px; }
+.aster-jwk-checkout .aster-method-copy { min-width: 0; display: grid; gap: 4px; }
+.aster-jwk-checkout .aster-method-copy strong { font: 600 13px/1.35 var(--aster-sans); }
+.aster-jwk-checkout .aster-method-copy small { color: var(--aster-muted); font: 400 10.5px/1.4 var(--aster-sans); }
+.aster-jwk-checkout #payment div.payment_box { padding: 20px; border-radius: 5px; font-size: 13px; }
+.aster-jwk-checkout .aster-provider-heading { display: flex; align-items: flex-start; gap: 12px; margin-bottom: 20px; }
+.aster-jwk-checkout .aster-provider-heading > img { flex: 0 0 28px; }
+.aster-jwk-checkout .aster-provider-heading h4 { margin: 0 0 4px; font: 600 14px/1.4 var(--aster-sans); }
+.aster-jwk-checkout .aster-provider-heading p { margin: 0; color: var(--aster-muted); font: 400 12px/1.5 var(--aster-sans); }
+.aster-jwk-checkout #payment .payment_box .form-row { margin-bottom: 16px; }
+.aster-jwk-checkout #payment .wc-credit-card-form { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); column-gap: 12px; }
+.aster-jwk-checkout #payment .wc-credit-card-form > .form-row-wide { grid-column: 1 / -1; }
+.aster-jwk-checkout #payment .wc-credit-card-form > .clear { display: none; }
+.aster-jwk-checkout #payment .form-row.place-order { margin: 0; }
+.aster-jwk-checkout #payment .woocommerce-privacy-policy-text { margin: 0 0 16px; }
+.aster-jwk-checkout .woocommerce-terms-and-conditions-wrapper { font-size: 12px; line-height: 1.6; }
+.aster-jwk-checkout #payment #place_order { margin-top: 16px; border-radius: 0; }
+.aster-jwk-checkout .aster-checkout-mail-note { margin: 16px 0 0; color: var(--aster-muted); font: 400 11px/1.6 var(--aster-sans); }
+.aster-jwk-checkout .aster-checkout-edit { display: inline-flex; align-items: center; min-height: 44px; margin-top: 12px; font-size: 12px; }
+@media (min-width: 641px) {
+  .aster-jwk-checkout :is(.woocommerce-billing-fields__field-wrapper, .woocommerce-shipping-fields__field-wrapper):has(> [id$="_postcode_field"][style*="display: none"]) > :is(#billing_city_field, #billing_state_field, #shipping_city_field, #shipping_state_field),
+  .aster-jwk-checkout :is(.woocommerce-billing-fields__field-wrapper, .woocommerce-shipping-fields__field-wrapper):has(> [id$="_state_field"][style*="display: none"]) > :is(#billing_city_field, #billing_postcode_field, #shipping_city_field, #shipping_postcode_field) { grid-column: span 3; }
+  .aster-jwk-checkout :is(.woocommerce-billing-fields__field-wrapper, .woocommerce-shipping-fields__field-wrapper):has(> [id$="_postcode_field"][style*="display: none"]):has(> [id$="_state_field"][style*="display: none"]) > :is(#billing_city_field, #shipping_city_field) { grid-column: 1 / -1; }
+}
+@media (max-width: 980px) {
+  .aster-jwk-checkout .aster-checkout-intro { grid-template-columns: 1fr; gap: 14px; }
+  .aster-jwk-checkout .aster-checkout-intro > p { max-width: none; margin: 0; }
+  .aster-jwk-checkout form.checkout { grid-template-columns: minmax(0, 1fr); gap: 28px; }
+  .aster-jwk-checkout .aster-checkout-side { grid-column: 1; position: static; }
+  .aster-jwk-checkout .woocommerce form .form-row input.input-text,
+  .aster-jwk-checkout .woocommerce form .form-row select,
+  .aster-jwk-checkout .woocommerce form .form-row textarea,
+  .aster-jwk-checkout .woocommerce form .form-row .select2-container .select2-selection--single .select2-selection__rendered { font-size: 16px; }
+}
+@media (max-width: 640px) {
+  .aster-jwk-checkout .aster-native-content { width: calc(100% - 28px); padding: 20px 0 48px; }
+  .aster-jwk-checkout .aster-checkout-intro { gap: 10px; padding-bottom: 20px; }
+  .aster-jwk-checkout .aster-checkout-intro h1 { font-size: clamp(35px, 11vw, 48px); }
+  .aster-jwk-checkout .aster-checkout-intro > p { font-size: 14px; }
+  .aster-jwk-checkout .aster-checkout-tools { margin: 16px 0 20px; }
+  .aster-jwk-checkout form.checkout { display: flex; flex-direction: column; gap: 24px; }
+  .aster-jwk-checkout .aster-delivery-notice { gap: 10px; padding: 12px; margin-bottom: 16px; }
+  .aster-jwk-checkout .aster-delivery-notice p { font-size: 12px; }
+  .aster-jwk-checkout .woocommerce-billing-fields__field-wrapper,
+  .aster-jwk-checkout .woocommerce-shipping-fields__field-wrapper { gap: 14px; }
+  .aster-jwk-checkout :is(#billing_country_field, #billing_phone_field, #billing_postcode_field,
+    #shipping_country_field, #shipping_phone_field, #shipping_postcode_field) { grid-column: 1 / -1; }
+  .aster-jwk-checkout :is(#billing_city_field, #billing_state_field, #shipping_city_field, #shipping_state_field) { grid-column: span 3; }
+  .aster-jwk-checkout .aster-checkout-side { padding: 20px 16px; box-shadow: 0 12px 24px rgb(37 34 30 / 4%); }
+  .aster-jwk-checkout .aster-order-card-heading { margin-bottom: 20px; }
+  .aster-jwk-checkout .aster-order-product { grid-template-columns: 74px minmax(0, 1fr); gap: 12px; }
+  .aster-jwk-checkout .aster-order-product > img { width: 74px; height: 94px; }
+  .aster-jwk-checkout .aster-order-product-copy > strong { font-size: 13px; }
+  .aster-jwk-checkout .woocommerce table.shop_table tbody td { padding-bottom: 20px; }
+  .aster-jwk-checkout .aster-order-product-total { grid-column: 2; align-self: auto; }
+  .aster-jwk-checkout .aster-checkout-shipping-note { margin: 20px 0 24px; }
+  .aster-jwk-checkout #payment ul.payment_methods { display: flex; flex-direction: column; gap: 8px; }
+  .aster-jwk-checkout #payment ul.payment_methods li > label { padding: 10px 12px; min-height: 64px; }
+  .aster-jwk-checkout .aster-method-copy strong { font-size: 14px; }
+  .aster-jwk-checkout .aster-method-copy small { font-size: 12px; }
+  .aster-jwk-checkout #payment div.payment_box { padding: 14px; }
+  .aster-jwk-checkout #payment .woocommerce-terms-and-conditions-wrapper .form-row label { font-size: 12px; font-weight: 400; }
+}
+@media (max-width: 359px) {
+  .aster-jwk-checkout .woocommerce-billing-fields__field-wrapper > .form-row,
+  .aster-jwk-checkout .woocommerce-shipping-fields__field-wrapper > .form-row { grid-column: 1 / -1; }
+}
+@media (min-width: 360px) and (max-width: 640px) {
+  .aster-jwk-checkout :is(.woocommerce-billing-fields__field-wrapper, .woocommerce-shipping-fields__field-wrapper):has(> [id$="_state_field"][style*="display: none"]) > :is(#billing_city_field, #shipping_city_field) { grid-column: 1 / -1; }
+}

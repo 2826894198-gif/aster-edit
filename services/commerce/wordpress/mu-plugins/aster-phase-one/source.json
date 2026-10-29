@@ -1,0 +1,29 @@
+{
+  "date": "2026-10-16",
+  "mode": "local-only opt-in",
+  "source_project": "Animate Goods",
+  "reference_files": [
+    {
+      "path": "integrations/woocommerce/animate-goods-customer-operations/src/ShipmentAdmin.php",
+      "sha256": "1b18336f2f4874988d4afb4b885d9f8e6528139d8d060c828a47f3d58d78efe2"
+    },
+    {
+      "path": "integrations/woocommerce/animate-goods-customer-operations/src/ShipmentData.php",
+      "sha256": "21a2e0f5fcddb2d491f5804be6dc6fe1993f1e8fd533f0319638fdd7fcbdf349"
+    },
+    {
+      "path": "src/features/cart/OrderRequest.jsx",
+      "sha256": "da2181f424bb5e225404ac5e9b269c32b0b7eaca34085a3896866e8897894d7d"
+    },
+    {
+      "path": "src/components/account/OrderInquiryDialog.jsx",
+      "sha256": "f740e240e61c29f2d601482715d4bf141837d7ae997bff8289a7d304c5693809"
+    }
+  ],
+  "adaptation": [
+    "Woo-native order metadata and validation instead of a second order engine",
+    "Local opt-in only; no payment writer or automatic carrier fetch",
+    "Aster email draft and copy; no joint-operation or audio personalization content",
+    "Original approved Olive photograph copied without editing"
+  ]
+}

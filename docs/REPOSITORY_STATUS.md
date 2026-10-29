@@ -1,28 +1,11 @@
-# Repository status
+# 仓库状态
 
-Updated: 2026-10-28.
+更新：2026-10-29。
 
-## Public snapshot
+本地合仓布局为 `apps/storefront/` 与 `services/commerce/`，只使用 [批准来源](SOURCES.md) 的提交。前端历史保留为主线，交易服务的批准提交对象已在本地目标对象库中，供维护者建立双亲合并提交；本地整理未自行创建提交或修改远端。
 
-The public demo retains 240 published responsive-image entries and all 795 derivative variants. Private originals and procurement records are excluded. Production deployment state, customer/order records, credentials and actual operational exports are not included.
+两个模块保持独立的依赖、环境、运行数据与部署边界。根 README 与 Makefile 提供从正确目录执行的入口，不开启真实商户服务。
 
-## Verification in this export
+来源快照的前端完整构建通过；production metadata 定向检查为 8/9，旧杯页章节锚点仍未通过。交易、邮件与真实支付完整验收没有由合仓补足。详见 [验证](VALIDATION.md) 和 [已知问题](KNOWN_ISSUES.md)。
 
-- `npm run build`: passed; 28 routes statically prerendered. Private Sites hosting configuration is optional.
-- `npm run test:sites`: 51 passed, 3 failed, 1 explicitly skipped. Skipped/failed tests are not reported as passes.
-- Remaining failures: the cup exposes purchase actions with colour-specific catalogue records and preserves its image and index boundaries; prerendered full page includes every zodiac, useful detail content and no video or preview purchase shell; Shop, search and sitemap match the zodiac range.
-- Private environment/original-material checks remain in source and skip explicitly when the corresponding private inputs are absent.
-
-## Limits
-
-Public product presentation is retained as case-study material; private contact, merchant environment and source records are fictionalized or omitted. The preview does not default to a live merchant backend.
-
-No live payment, external mail, production database, search indexing or marketing outcome was verified. Full desktop/mobile visual acceptance has not been repeated after source export; a successful build does not establish visual quality.
-
-## Production metadata follow-up
-
-A second build with `PUBLICATION_MODE=production VITE_PUBLICATION_MODE=production` passed with no merchant origin configured. The targeted `crystal-preview` and `aster-prerender` suites passed 8 of 9 tests: the two preview-versus-production SEO differences disappeared, while the historical cup chapter-anchor assertion at `tests/aster-prerender.test.mjs:74` remained failed. No UI or assertion was removed. This targeted run does not replace the earlier full-suite count.
-
-## 本次验证
-
-详见 [实际验证结果](VALIDATION.md)。
+UI、商品与支付业务逻辑不因目录合并而更改。公开衍生素材和已标识 AI 展示图保留，私有业务原图和记录不读取、不导入。
